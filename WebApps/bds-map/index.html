@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<title>北斗导航</title>
+	<!-- 框架css -->
+	<link rel="stylesheet" type="text/css" href="css/framecss/jquery.mobile-1.4.5.min.css">
+    
+    <!-- 自定义css -->
+	<link rel="stylesheet" type="text/css" href="css/usercss/global.css">
+    <link rel="stylesheet" type="text/css" href="css/usercss/message.css">
+    <link rel="stylesheet" type="text/css" href="css/usercss/directory.css">
+    <link rel="stylesheet" type="text/css" href="css/usercss/geolocation.css">
+    <link rel="stylesheet" type="text/css" href="css/usercss/setting.css">
+	
+	<!-- 框架js -->
+	<script type="text/javascript" src = "js/framejs/jquery-2.1.0.min.js"></script>
+	<script type="text/javascript" src="js/framejs/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="js/framejs/echarts.js"></script>
+
+	
+	<!-- 自定义js -->
+	<script defer type="text/javascript" src="js/userjs/message.js"></script>
+	<script defer type="text/javascript" src="js/userjs/directory.js"></script>
+	<script defer type="text/javascript" src="js/userjs/geolocation.js"></script>
+	<script defer type="text/javascript" src="js/userjs/setting.js"></script>
+	<script defer type="text/javascript" src="js/userjs/database.js"></script>
+	
+</head>
+<body>
+	<div id="editinfo">
+		<a href="#message-1">
+			<img src="resources/icon-editinfo.png" alt="" id="editinfoimg">
+		</a>
+	</div>
+	<div id="msgselect">
+ 			<div id="allread">
+       			<p class="menup" id="menupf">全部已读<p>
+       		</div>
+        	<div id="alldelete">
+       			<p class="menup">全部删除</p>
+        	</div>
+	</div>
+    <!-- 信箱页面 -->
+	<div data-role="page" id="message">
+		<!-- header -->
+		<div data-role="header" class="header">
+			<p class="header-text">信箱</p>
+			<img src="resources/icon-moreinfor.png" id="moreinfor">
+		</div>
+	    <!-- main-content -->
+		<div data-role="main" class="ui-content context">
+
+  		</div>
+ 		<!-- footer -->
+		<div data-role="footer" class="footer">
+			<div class="footercolor">
+				<table class="mainnav">
+					<tr>
+						<td class="currentwords">
+							<a href="">
+								<img src="resources/icon-message2.png" alt="" class="mainicon">
+							</a>
+							<br>通信
+						</td>
+						<td>
+							<a href="#directory" data-transition="none">
+								<img src="resources/icon-directory1.png" alt="" class="mainicon">
+							</a>
+							<br>号码
+						</td>
+						<td>
+							<a href="#geolocation" data-transition="none">
+								<img src="resources/icon-location1.png" alt="" class="mainicon">
+							</a>
+							<br>定位
+						</td>
+						<td>
+							<a href="#setting" data-transition="none">
+								<img src="resources/icon-setting1.png" alt="" class="mainicon">
+							</a>
+							<br>设置
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+    <!-- 信箱默认页面 -->
+    <div data-role="page" id="message-1">
+		<!-- header -->
+		<div data-role="header" class="header">
+			<img  src="resources/icon-back.png" id="back-left">
+			<input type="" name="" placeholder="收信方" class="userinput">
+			<img src="resources/icon-num-right.png" id="num-right">
+		</div>
+	    <!-- main-content -->
+		<div data-role="main" class="ui-content msgcontext">
+			<table>
+				<tr>
+					<td class="iconrec">
+						<img src="resources/icon-triangle.png" alt="" class="msgicon">
+					</td>
+					<td class="receive-msg">
+						发信息内容发信息内容发信息内容发信息内容发信息内容发信息内容发信息内容发信息内容
+					</td>
+				</tr>
+			</table>
+			<table class="outersend">
+				<tr>
+					<td class="send-msg">
+						发信息内容发信息内容发信息内容发信息内容发信息内容发信息内容发信息内容发信息内容
+					</td>
+					<td class="iconsend">
+						<img src="resources/icon-triangle2.png" alt="" class="msgicon">
+					</td>
+				</tr>
+			</table>
+  		</div>
+ 		<!-- footer -->
+		<div data-role="footer" class="msgfooter">
+			<table id="msgtable">
+				<tr>
+					<td class="msgtd">
+						<div class="messageicon-left">连续报位</div>
+						<div class="messageicon-right">
+							<img id="continu-location" src="resources/icon-locat1.png" alt="" class="messageicon" >
+						</div>
+					</td>
+					<td class="msgtd">
+						<div class="messageicon-left">紧急频度</div>
+						<div class="messageicon-right">
+							<img id="freq-level" src="resources/icon-freq1.png" alt="" class="messageicon">
+						</div>
+					</td>
+					<td>
+						<div class="messageicon-left">频度</div>
+						<div class="messageicon-right-freq">
+							<input id="freq" type="" name="" placeholder="60s" class="freqinput">
+						</div>
+					</td>
+				</tr>
+			</table>
+			<div id="textinput">
+				<textarea rows="3" col="100" name="textarea" placeholder="文本框的输入字符上限140。" id="messageinput"></textarea>
+				<div id="send-message">发送</div>
+				<div id="time-count">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 点击号码进入页面 -->
+    <div data-role="page" id="message-2">
+		<!-- header -->
+		<div data-role="header" class="header">
+			<img  src="resources/icon-back.png" id="numback-left">
+			<p class="addnum-header">添加号码</p>
+		</div>
+	    <!-- main-content -->
+		<div data-role="main" class="ui-content context">
+			<div id="addnumber">
+				<table >
+					<tr class="numlist">
+						<td class="numcompleft">
+							北斗卡号
+						</td>
+						<td>
+							<input type=""  placeholder="输入北斗卡号" class="numcompright" id="username">
+						</td>
+					</tr>
+					<tr class="numlist">
+						<td class="numcompleft">
+							终端或单位名
+						</td>
+						<td>
+							<input type=""  placeholder="输入终端或单位名" class="numcompright" id="usernum">
+						</td>
+					</tr>
+				</table>
+				<p id="done"></p>
+				<div id="abtnum">确认</div>
+			</div>
+  		</div>
+ 		<!-- footer -->
+		<div data-role="footer" class="footer">
+			
+		</div> 
+	</div>
+	
+	<!--号码簿-->
+	<div data-role="page" id="directory">
+		<!-- header -->
+		<div data-role="header" class="header">
+			<p class="header-text">号码</p>
+			<img src="resources/icon-addnum2.png" id="addnum">
+		</div>
+	    <!-- main-content -->
+		<div data-role="main" class="ui-content context" id="numrecord">
+			<!-- <div class="onenumber2">
+				<div class="onenumber-frame">
+					<table class="onenumber-table2">
+						<tr>
+							<td class="number">
+								1000000
+							</td>
+							<td class="company">
+								终端或单位名
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="editanddelete2"> 
+					<div class="onenumber-delete">
+						删除
+					</div>
+					<div class="onenumber-edit">
+						编辑
+					</div>
+				</div>	
+			</div> -->
+  		</div>
+ 		<!-- footer -->
+		<div data-role="footer" class="footer">
+			<div class="footercolor">
+				<table class="mainnav">
+					<tr>
+						<td>
+							<a href="#message" data-transition="none">
+								<img src="resources/icon-message1.png" alt="" class="mainicon">
+							</a>
+							<br>通信
+						</td>
+						<td class="currentwords">
+							<a href="#">
+								<img src="resources/icon-directory2.png" alt="" class="mainicon">
+							</a>
+							<br>号码
+						</td>
+						<td>
+							<a href="#geolocation" data-transition="none">
+								<img src="resources/icon-location1.png" alt="" class="mainicon">
+							</a>
+							<br>定位
+						</td>
+						<td>
+							<a href="#setting" data-transition="none">
+								<img src="resources/icon-setting1.png" alt="" class="mainicon">
+							</a>
+							<br>设置
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div> 
+	</div>
+
+	<!-- 定位页面 -->
+	<div data-role="page" id="geolocation">
+		<!-- header -->
+		<div data-role="header" class="header">
+			<table id="locnav">
+				<tr>
+					<td>
+						<p class="locheader" id="ploc">无源定位<p>
+					</td>
+					<td>
+						<p class="locheader">有源定位</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	    <!-- main-content -->
+		<div data-role="main" class="ui-content context">
+			<!-- 无源定位 -->
+			<div id="passivepage">
+				<!-- 1 -->
+				<div class="plist">
+					<div class="pleft">经度</div>
+					<div class="pright">0</div>
+				</div>
+				<!-- 2 -->
+				<div class="plist"> 
+					<div class="pleft">纬度</div>
+					<div class="pright">0</div>
+				</div>
+				<!-- 3 -->
+				<div class="plist">
+					<div class="pleft">海拔</div>
+					<div class="pright">0</div>
+					<div class="plast">0</div>
+				</div>
+				<!-- 4 -->
+				<div class="plist">
+					<div class="pleft">定位时间</div>
+					<div class="pright">0</div>
+				</div>
+				<!-- 5 -->
+				<div class="plist">
+					<div class="pleft">有效性</div>
+					<div class="pright">0</div>
+				</div>
+			</div>
+			<!-- 有源定位 -->
+			<div id="activepage">
+				<div id="btnvector">
+					<div id="abtsin">单次定位</div>
+					<div id="abtmul">连续定位</div>
+				</div>
+				<!-- 1 -->
+				<div class="alist">
+					<div class="aleft">经度</div>
+					<div class="aright">0</div>
+				</div>
+				<!-- 2 -->
+				<div class="alist">
+					<div class="aleft">纬度</div>
+					<div class="aright">0</div>
+				</div>
+				<!-- 3 -->
+				<div class="alist">
+					<div class="aleft">海拔</div>
+					<div class="aright" id="aspecial">0</div>
+					<div class="alast">0</div>
+				</div>
+				<!-- 4 -->
+				<div class="alist">
+					<div class="aleft">定位时间</div>
+					<div class="aright">0</div>
+				</div>
+			</div>
+  		</div>
+ 		<!-- footer -->
+		<div data-role="footer" class="footer">
+			<div class="footercolor">
+				<table class="mainnav">
+					<tr>
+						<td>
+							<a href="#message" data-transition="none">
+								<img src="resources/icon-message1.png" alt="" class="mainicon">
+							</a>
+							<br>通信
+						</td>
+						<td>
+							<a href="#directory" data-transition="none">
+								<img src="resources/icon-directory1.png" alt="" class="mainicon">
+							</a>
+							<br>号码
+						</td>
+						<td class="currentwords">
+							<a href="#">
+								<img src="resources/icon-location2.png" alt="" class="mainicon">
+							</a>
+							<br>定位
+						</td>
+						<td>
+							<a href="#setting" data-transition="none">
+								<img src="resources/icon-setting1.png" alt="" class="mainicon">
+							</a>
+							<br>设置
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div> 
+	</div>
+
+	<!-- 设置页面 -->
+	<div data-role="page" id="setting">
+		<!-- header -->
+		<div data-role="header" class="header">
+			<table id =setnav>
+				<tr>
+					<td>
+						<p class="setheader" id="setlocal">本机信息</p>
+					</td>
+					<td>
+						<p class="setheader">卫星状态</p>
+					</td>
+					<td>
+						<p class="setheader">高级设置</p>
+					</td>
+				</tr>
+			</table>
+		</div>
+	    <!-- main-content -->
+		<div data-role="main" class="ui-content context">
+			<!-- 本机信息 -->
+			<div id="localinfo">
+				<!-- 1 -->
+				<div class="lolist">
+					<div class="loleft">本机卡号</div>
+					<div class="loright">000000</div>
+				</div>
+				<!-- 2 -->
+				<div class="lolist">
+					<div class="loleft">IC卡状态</div>
+					<div class="loright">良好</div>
+				</div>
+				<!-- 3 -->
+				<div class="lolist">
+					<div class="loleft">服务频率</div>
+					<div class="loright">115200hz</div>
+				</div>
+				<!-- 4 -->
+				<div class="lolist">
+					<div class="loleft">入栈状态</div>
+					<div class="loright">入栈</div>
+				</div>
+				<!-- 5 -->
+				<div class="lolist">
+					<div class="loleft">终端连接状态</div>
+					<div class="loright">连接</div>
+				</div>
+				<!-- 6 -->
+				<div class="lolist">
+					<div class="loleft">通信等级</div>
+					<div class="loright">普通</div>
+				</div>
+				<!-- 7 -->
+				<div class="lolist">
+					<div class="loleft">是否加密</div>
+					<div class="loright">是</div>
+				</div>
+				<!-- 8 -->
+				<div class="lolist">
+					<div class="loleft">剩余电量</div>
+					<div class="loright">50%</div>
+				</div>
+			</div>
+			<!-- 卫星状态 -->
+			<div id="satestate">
+				<!-- rdss -->
+				<div id="rdss"> 
+					
+				</div>
+				<!-- rnss -->
+				<div id="rnss">
+					
+				</div>
+			</div>
+			<!-- 高级设置 -->
+			<div id="specialset">
+				<div class="splist">
+					<div class="spleft">序列号</div>
+					<div class="spright"><input type=""  placeholder="45614631" class="sput"></div>
+				</div>
+				<!-- 8 -->
+				<div class="splist">
+					<div class="spleft">管理信息</div>
+					<div class="spright"><input type=""  placeholder="4545551" class="sput"></div>
+				</div>
+				<div id="abtset">修改设置</div>
+			</div>
+  		</div>
+ 		<!-- footer -->
+		<div data-role="footer" class="footer">
+			<div class="footercolor">
+				<table class="mainnav">
+					<tr>
+						<td id="">
+							<a href="#message" data-transition="none">
+								<img src="resources/icon-message1.png" alt="" class="mainicon">
+							</a>
+							<br>通信
+						</td>
+						<td>
+							<a href="#directory" data-transition="none">
+								<img src="resources/icon-directory1.png" alt="" class="mainicon">
+							</a>
+							<br>号码
+						</td>
+						<td>
+							<a href="#geolocation" data-transition="none">
+								<img src="resources/icon-location1.png" alt="" class="mainicon">
+							</a>
+							<br>定位
+						</td>
+						<td class="currentwords">
+							<a href="#">
+								<img src="resources/icon-setting2.png" alt="" class="mainicon">
+							</a>
+							<br>设置
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div> 
+	</div>
+</body>
+</html>

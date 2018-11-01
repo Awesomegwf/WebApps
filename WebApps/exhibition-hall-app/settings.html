@@ -1,0 +1,77 @@
+<div class="sidebar">
+    <div class="navbar">
+        <a href="#gallery-list" data-transition="none" class="nav"><img src="icons/nav_01.png"></a>
+        <a href="#gallery" data-transition="none" class="nav"><img src="icons/nav_02.png"></a>
+        <a href="#search" data-transition="none" class="nav"><img src="icons/nav_03.png"></a>
+        <a href="#favorites" data-transition="none" class="nav"><img src="icons/nav_04.png"></a>
+        <a href="#settings" data-transition="none" class="nav current"><img src="icons/nav_05.png"></a>
+    </div>
+</div>
+<div class="header"></div>
+<div class="main" id="setting-area">
+    <!-- 解说语音 -->
+    <div id="commentary">
+        <p class="title"> 
+            <span id="ExplainText">解说语音</span>
+            <img src="icons/favorites-line.png" id="ExplainMsicLine">
+            <a  id="switch-box1" ><img src="icons/switchon.png"  id ="commentary-music-switch" style=" position: absolute; left:350px;"  width="72" height="33" />
+            </a>
+        </p>
+
+        <div id="commentary-box">
+            <p>音量</p><p id="commentary-volume"></p>
+            <div id="commentary-input-box">
+                <input type="range" min="10" max="100" id="commentary-input" data-role="none">
+            </div>
+        </div>
+    </div>
+
+    <!-- 背景音乐 -->
+    <div id="background-music">
+        <p class="title">
+                <span id="backgroundText">背景音乐</span>
+                <img src="icons/favorites-line.png" id="backgroundMusicLne"> 
+                <a id="switch-box2"><img src="icons/switchon.png"  id="background-music-switch"     style=" position: absolute; left:350px  " width="72" height="33" >
+                </a>
+        </p>
+        <div id="background-music-box">
+            <p>音量</p><p id="background-music-volume"></p>
+            <div id="background-music-input-box">
+                <input type="range" min="10" max="100" id="background-music-input" data-role="none">
+            </div>
+        </div>
+
+        <div id="change-music-box">
+            <p>音乐更换</p>
+            <select data-role="none" id="background-music-dropdown-selector" title="请选择收藏夹">
+            </select>
+        </div>
+    </div>
+
+    <!-- 屏幕亮度 -->
+    <div id="brightness">
+        <p class="title">屏幕亮度</p>
+        <div id="brightness-box">
+            <p>亮度</p><p id="brightness-value"></p>
+            <div id="brightness-input-box">
+                <input type="range" min="10" max="100" id="brightness-input" data-role="none">
+            </div>
+        </div>
+
+    </div>
+    <!--调整字体-->
+    <div id="changefont">
+        <p class="title">调整字体</p>
+        <div id="changefont-box">
+            <p>请选择</p>
+            <div id="change-font-box">
+                <input type="range" id="fontsize-change" data-role="none">
+            </div>
+            <span id="spanMin">小</span>
+            <span id="spanMiddle">中</span>
+            <span id="spanMax">大</span>
+        </div>
+    </div>
+</div>
+
+<div class="footer">中国人民解放军档案馆</div>

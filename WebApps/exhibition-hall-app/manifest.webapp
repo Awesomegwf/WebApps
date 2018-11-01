@@ -1,0 +1,31 @@
+{
+	"name": "　开国将帅　档案珍品展",
+	"description":"Exhibition Hall",
+	"launch_path": "/index.html",
+	"type": "certified",
+	"developer": {
+		"name": "Kylin",
+		"url": "http://www.kylinos.cn"
+	},
+	"permissions": {
+		"device-storage:sdcard": {"access": "readwrite"},
+		"device-storage:pictures":{ "access": "readonly" },
+        "device-storage:music":{ "access": "readonly" },
+        "device-storage:videos":{ "access": "readonly" },
+        "audio-channel-content":{},
+        "power":{},
+        "idle":{}
+	},
+	"locales":{
+            "en-US":{"name":"　开国将帅　档案珍品展","description":"档案馆"},
+            "zh-CN":{"name":"　开国将帅　档案珍品展","description":"档案馆"}
+        },
+        "default_locale":"zh-CN",
+	"icons": {
+		"128": "/icons/exhibition-hall.png"
+	},
+	"orientation": "landscape",
+	"fullscreen": true,
+	"origin":"app://exhibition-hall.gaiamobile.org",
+	"version":"1.0.4"
+}

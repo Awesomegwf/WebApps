@@ -1,0 +1,396 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	height: 50px;
+	line-height: 50px;
+	background: #D9C3AC;
+	width: 100%;
+	position: absolute;
+	left: 100px;
+/*	z-index: 5;*/
+	top: 0;
+	text-align: center;
+}
+
+
+#display-board-entry {
+	height: 50px;
+}
+
+#favorites-entry {
+	height: 50px;
+}
+
+#display-board-entry img {
+	height: 50px;
+}
+
+
+#favorites-entry img{
+	height: 50px;
+}
+
+.popwindow {
+	width: 400px;
+	height: 150px;
+	display: none;
+	position: absolute;
+	left: 30%;
+	margin-top: 25%;
+	z-index: 1000;
+}
+
+
+
+.main {
+	background: #F0E2D4;
+	overflow: hidden;
+	top: 50px;
+	width: 100%;
+	position: absolute;
+	left: 100px;
+/*	z-index: 10;*/
+	bottom: 50px;
+}
+
+.footer {
+	height: 50px;
+	line-height: 50px;
+	background: #D9C3AC;
+	width: 100%;
+	position: absolute;
+	left: 100px;
+/*	z-index: 200;*/
+	bottom: 0;
+	text-align: center;
+}
+
+
+#playbox {
+	background: #000000;
+}
+
+#playbutton {
+        margin: 0px;
+        height: 50px;
+        background-color: #000000;
+        float: left;
+        cursor: pointer;
+}
+
+#current {
+        margin: 0px;
+        margin-top: 0px;
+        margin-left: 20px;
+        float: left;
+				text-shadow: none;
+				color: white;
+				font-size: 1.3em;
+}
+
+#duration {
+        margin: 0px;
+        margin-top: 0px;
+        float: left;
+				text-shadow: none;
+				color: white;
+				font-size: 1.3em;
+}
+
+.slider {
+        width: 900px;
+        height: 10px;
+        background-color: #181818;
+        border-top: 1px solid #0b0b0b;
+        border-bottom: 1px solid #4a4a4a;
+        border-radius: 6px;
+        margin-left: 200px;
+        margin-top: 20px;
+        position: relative;
+}
+
+.buffer {
+        width: 100%;
+        height: 100%;
+        background-color: #535353;
+        border-radius: 6px;
+        position: absolute;
+}
+
+.controller {
+        position: absolute;
+        width: 6px;
+        height: 6px;
+        border: 10px solid #f3f3f6;
+        background-color: rgba(255, 255, 255, 0);
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        top: -8px;
+        left: 0px;
+        bottom: 0px;
+}
+
+
+
+#gallery {
+	height: 100%;
+	width: 100%;
+}
+
+
+.sidebar {
+	width: 100px;
+	height: 100%;
+	background-color: #A40000;
+	z-index: 300;
+	float: left;
+}
+
+
+
+.navbar a img{
+	width: 100px;
+	height: 100px
+}
+
+.navbar a:link {
+	display: block;
+}
+
+.navbar a:visited {
+	display: block;
+}
+
+.navbar a:hover {
+	background-color: #FF0000;
+}
+
+.navbar a:active {
+	background-color: #FF0000;
+}
+
+.navbar a.current {
+	background-color: #FF0000;
+}
+
+#show-area {
+	position: absolute;
+	left: 30px;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+#show-area-alt {
+	position: absolute;
+	left: 1920px;
+    bottom: 50px;
+    top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+/* 展板展示下拉菜单 */
+#pull-down-menu {
+	height: 698px;
+	width: 100%;
+	position: absolute;
+	left: 100px;
+	top: 50px;
+	background-color: #FFF9F4;
+	overflow-x: scroll;
+	display: none;
+}
+
+.board{
+	float: left;
+	margin: 15px 25px 8px 11px;
+	text-align: center;
+}
+
+.board img{
+	max-width:250px;
+	height:150px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.tile{
+	float: left;
+	margin: 10px;
+	text-align: center;
+	padding-bottom: 10px;
+	height: 222px;
+}
+
+.tile img:first-child{
+	width: 163px;
+	height: 200px;
+	cursor: pointer;
+	text-align: center;
+}
+
+
+.board p{
+	margin-bottom: 25px;
+}
+
+
+
+/* setting.css */
+#settings {
+	width: 100%;
+	height: 100%;
+}
+
+.title {
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 20px;
+	color: #A40000;
+}
+
+#commentary {
+	height: 80px;
+}
+
+ #background-music {
+ 	height: 140px;
+ }
+
+
+#commentary-box p, #background-music-box p, #brightness-box p{
+	margin: 0px;
+	margin-left: 40px;
+	height: 40px;
+	float: left;
+	font-weight: bold;
+}
+#commentary-box div, #background-music-box div, #change-music-box select, brightness-box div {
+	float: left;
+	height: 40px;
+}
+
+
+#commentary-input, #background-music-input, #brightness-input {
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width: 300px;
+	height: 20px;
+	background: #F0E2D4;
+	border: 0px;
+}
+
+#changefont-box p {
+	margin: 0px;
+	margin-left: 40px;
+	height: 40px;
+	float: left;
+	font-weight: bold;
+}
+#change-font-box p {
+	margin: 0px;
+	margin-left: 40px;
+	height: 40px;
+	float: left;
+	font-weight: bold;
+}
+#fontsize-change {
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width: 300px;
+	height: 20px;
+	background: #F0E2D4;
+	border: 0px;
+	margin-left: 50px;
+}
+#spanMin {
+	font-size:1em;
+	margin-right:9.7%;
+	margin-left: 4%;
+}
+#spanMiddle {
+	font-size:1.3em;
+	margin-right:9.5%;
+}
+#spanMax {
+	font-size:1.5em;
+	margin-right:0%;
+}
+
+#change-font-box p {
+	margin: 0px;
+	margin-left: 40px;
+	margin-top: 10px;
+	height: 40px;
+	font-weight: bold;
+	clear: left;
+	float: left;
+}
+#change-music-box p {
+	margin: 0px;
+	margin-left: 40px;
+	margin-top: 10px;
+	height: 40px;
+	font-weight: bold;
+	clear: left;
+	float: left;
+}
+
+#change-music-box select {
+	margin-left: 20px;
+	border: solid 1px;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width: 200px;
+	overflow: hidden;
+	background: url("../icons/arrow.png") no-repeat right white;
+	background-size: 40px 40px;
+	float: left;
+}
+
+#ExplainMsicLine{
+	width: 18%;
+	height: 5px;
+	margin-right: 5px;
+	position: relative;
+	top: -2px;
+}
+
+#backgroundMusicLne{
+	width: 18%;
+	height: 5px;
+	margin-right: 5px;
+	position: relative;
+	top: -2px;
+}
+
+#ExplainText{
+	position: relative;
+	top: 3px;
+}
+
+#backgroundText{
+	position: relative;
+	top: 3px;
+}
+
+/*record*/
+
+
+#favorites-record-entry{
+	height: 50px;
+	float: right;
+	margin-right: 150px;
+}
+
+#favorites-record-entry-img{
+	height: 50px;
+}
+
+.ui-page { -webkit-backface-visibility: hidden; }

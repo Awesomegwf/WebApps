@@ -1,0 +1,33 @@
+#product-demo {
+	width: 100px;
+	height: 100px;
+}
+
+#manual-demo {
+	width: 100px;
+	height: 100px;
+}
+
+#products-list {
+	width: 100%;
+}
+
+#products-content {
+	width: 100%;
+}
+
+.product-demo {
+	width: 15%;
+	height: 200px;
+}
+
+.ui-bar.ui-bar-f {
+	color: #ffffff;
+	background: #2082A9;
+}
+.ui-bar.ui-bar-f h1 {
+	font-weight: normal;
+}
+.ui-page.ui-page-f {
+	background: #f2f2f2;
+}

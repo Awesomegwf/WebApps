@@ -1,0 +1,510 @@
+
+
+#Side_Nav {
+    position:fixed;  
+    /*font-size: 2em;*/
+    top:0;
+    height: 7%;  
+    width: 60%;
+    border-top: #060 2px solid;  
+    border-bottom: #060 2px solid;  
+    background-color: #690;  
+}  
+
+#Side_Nav ul {  
+    list-style: none;  
+    margin-left: -50px;  
+}  
+
+#Side_Nav li {  
+    display: inline; 
+
+    /*line-height: 40px;  */
+}  
+
+#Side_Nav a {  
+    color: #fff;  
+    text-decoration: none;  
+    padding: 20px 20px;  
+}  
+
+#Side_Nav a:hover {  
+    background-color: #060;  
+}  
+
+/*
+.Menu_draw_notes{
+position: fixed;
+background-color: black; 
+border: 2px solid #cccccc; 
+width: 20%; 
+/*height:2%; 
+padding: 10px; 
+display: none; 
+z-index:998;
+position: absolute;
+}*/
+
+
+
+
+/*面板栏三块*/
+/*
+ *.Nav_Note_Bookmark_board{
+ *    position:fixed;
+ *    top:8%;
+ *    left:1%;
+ *    width:45%;   
+ *    height:100%;
+ *
+ *}
+ *
+ *#Panel_Nav_board{
+ *    top:8%;
+ *    display: none;
+ *    background-color: #666666;
+ *
+ *
+ *}
+ *
+ *#Panel_Note_board{
+ *    top:8%;
+ *    display: none;
+ *    background-color: #33CCFF;
+ *
+ *
+ *}
+ *#Panel_Bookmark_board{
+ *    top:8%;
+ *    display:none;
+ *    background-color: #B94FFF ;
+ *
+ *
+ *}
+ *
+ */
+
+/*内容显示快*/
+
+#Page_content_div{
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:997;
+    height: 100%;
+    width: 100%;
+    line-height:120%;
+    font-size:20px;
+    background-color:"#DDDDDD";
+    align-content: center;
+
+}
+
+
+
+/*切换上页*/
+#Previous_page{
+    position:fixed;
+    left:0;
+    top:15%;
+    opacity:0;
+    width:20%;
+    height:100%;
+    background:#000;
+    z-index:998;
+    text-align:center;
+    bottom: 15%;
+    /*display: none;*/
+}
+#Next_page{
+    position:fixed;
+    right: 0;
+    top:15%;
+    opacity:0;
+    width:20%;
+    height:100%;
+    background:#000;
+    z-index:998;
+    text-align:center;
+    bottom: 15%;
+    /*display: none;*/
+}
+
+/*面板侧栏*/
+#Doc_sidebar_Panel {
+    position:fixed;
+    left:0;
+    top:0;
+    /*font size: 2.5em;*/
+}
+
+
+
+/*中部点击隐藏上下菜单按钮*/
+#Click_popmenu_page_X{
+    position:fixed;
+    right: 25%;
+    left: 25%;
+    top:25%;
+    opacity:0;
+    /*width:20%;*/
+    height:100%;
+    background:#000;
+    z-index:1000;
+    text-align:center;
+    bottom: 10%;
+    /*display: none;*/
+}
+
+
+/*笔记书签导航栏*/
+.Doc_sidebar{
+    display: none;
+    width:80%;
+    height:100%;
+    /*z-index:998;*/
+    position:fixed;
+}
+
+#Note_Bookmark_div{
+    position:fixed;
+    top:7%;
+    left:0;
+    background-color:#DDDDDD;
+}
+
+
+/*文档页点击后弹出的头部*/
+.Doc_content_header_pop{
+    position:fixed;
+    left:0;
+    top:0;
+    opacity:0.95;
+    width:100%;
+    height:4%;
+    background:#000;
+    z-index:1000;
+    text-align:center;
+    display: none;
+}
+
+
+.Doc_content_footer_pop{
+
+    position: fixed; /*or前面的是absolute就可以用*/  
+    bottom: 0px;
+    left:0;
+    opacity:0.95;
+    width:100%;
+    /*height:22%;*/
+    height:18%;
+    background:#000;
+    z-index:1000;
+    text-align:center;
+    display: none;
+}
+
+/*各图标大小*/
+.icon {
+    /*background: #AAAAAA;*/
+    position: fixed;
+    height: 3%;
+    width: auto;
+    /*width: 30%; 
+    height: auto;*/ 
+}
+.input{
+    height: 1%;
+}
+.left{
+    text-align : left;
+}
+/*.foot-tr{
+    width: 100%;
+}*/
+#setting_icon{
+    position: fixed;
+    /*height: 5%;*/
+    right: 3%;
+    /*top: 1%;*/
+}
+#back_to_product{
+    position: fixed;
+    /*height: 5%;*/
+    left: 3%;
+    /*top: 1%;*/
+    /*background-color: #DDDDDD;*/
+}
+
+#SettingPage_back_icon{
+    position: fixed;
+    /*height: 5%;*/
+    left: 1%;
+    top: 1%;
+
+}
+.setting_hr1{
+    position:relative;
+    /*height: 5%;*/
+    /*right: 3%;*/
+    top: 4%;
+}
+
+#Scroll_mode{
+    position: fixed;
+    /*height: 5%;*/
+    /*right: 3%;*/
+    width: 100%;
+    top: 7%;
+}
+.setting_hr2{
+    position:relative;
+    
+    /*height: 5%;*/
+    /*right: 3%;*/
+    top: 8%;
+}
+#Page_mode{
+    position: fixed;
+    /*height: 5%;*/
+    /*right: 3%;*/
+    width: 100%;
+    top: 11%;
+}
+.setting_hr3{
+    position:relative;
+    
+    /*height: 5%;*/
+    /*right: 3%;*/
+    top: 12%;
+}
+
+
+.footer_row4{
+    position: fixed;
+    bottom: 18%;
+}
+.previous_chapter{
+    /*position: fixed;*/
+    bottom: 17%;
+    left: 3%;
+}
+#chapter-input_bar{
+    position: fixed;
+    width: 70%;
+    left:13%;
+    bottom: 18%;
+    /*background-color: #DDDDDD;*/
+}
+.next_chapter{
+    /*position: fixed;*/
+    bottom: 17%;
+    right: 3%;
+}
+
+
+
+
+
+.footer_row3{
+    position: fixed;
+    bottom: 16%;
+}
+/*fontsize*/
+#fontsize_de{
+    left: 3%;
+}
+#fontsize-input_bar{
+    position:fixed;
+    left: 13%;
+    width: 22%;
+    bottom: 14%;
+}
+#fontsize_in{
+    left: 38%;
+}
+
+/*lightness*/
+#lightness_de{
+    right:38%;
+}
+#lightness-input_bar{
+    position:fixed;
+    right: 13%;
+    width: 22%;
+    bottom: 14%;
+}
+#lightness_in{
+    right:3%;
+}
+
+
+.footer_row2{
+    position: fixed;
+    bottom: 11%;
+}
+
+#linespacing_small{
+    left: 3%;
+}
+
+#linespacing_middle{
+    left: 20%;
+}
+
+#linespacing_big{
+    left: 38%;
+}
+#bgcolor_white{
+    right:38%;
+
+}
+#bgcolor_yellow{
+    right:20%;
+}
+#bgcolor_green{
+    right:3%;
+}
+
+tr.bordered {
+    border-bottom: 3px solid #DDDDDD;
+    background-color: white;
+    position: fixed;
+    bottom: 6%;
+}
+/*
+.footer_hr1{
+    position:relative;
+    height: 5%;
+    right: 3%;
+    top: 6%;
+}*/
+
+.footer_row1{
+    position: fixed;
+    /*bottom: 15%;*/
+}
+/*添加书签图标*/
+.panel_addbookmark_icon{
+    position: fixed;
+    /*height: 5%;*/
+    right: 3%;
+    bottom:2px;
+}
+
+#panel_nav_icon{
+    position: fixed;
+    /*height: 5%;*/
+    left: 3%;
+    bottom:2px;
+    background-color: #DDDDDD;
+}
+
+
+
+
+#setting_page{
+    position: fixed; /*or前面的是absolute就可以用*/  
+    bottom: 0px;
+    left:0;
+    /*opacity:0.95;*/
+    width:100%;
+    height:100%;
+    background-color:#DDDDDD;
+    z-index:1000;
+    text-align:center;
+    display: none;
+}
+
+#delete_confirm{
+    /*height:5%;*/
+    bottom: 0px;
+    left:0;
+    /*opacity:0.95;*/
+    width:100%;
+    height:100%;
+    background-color:#DDDDDD;
+    z-index:1000;
+    text-align:center;
+    display: none;
+
+}
+
+
+/*阅读页面块，暂时弃用*/
+#Readpage_header_div_{
+    position:fixed;
+    left:0;
+    top:0;
+    /*position: absolute; or前面的是absolute就可以用  */
+    /*top: 0px;*/
+    /*left:0px;*/
+    /*opacity:0.95;*/
+    width:100%;
+    height:4%;
+    background:#DDDDDD;
+    z-index:1000;
+    /*z-index:998;*/
+    text-align:center;
+
+}
+/*修改 panel 的原有样式*/
+/*
+ *.ui-panel {
+ *    width:20em ;
+ *}
+ *.ui-panel-position-left {
+ *    left: -20em;
+ *}
+ *.ui-panel.inner{
+ *    width:20em;
+ *}
+ *[> positioning: content wrap, fixed toolbars and dismiss <]
+ *[> panel left open <]
+ *
+ *.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open,
+ *.ui-panel-content-wrap-position-left.ui-panel-content-wrap-open,
+ *.ui-panel-dismiss-position-left.ui-panel-dismiss-open
+ *{
+ *    left: 20em;
+ *    right: -20em;
+ *
+ *}
+ */
+
+/*左边边展开设置宽度*/
+/* animated: panel left open (for reveal and push) */
+/*
+ *.ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal,
+ *.ui-panel-animate.ui-panel-content-fixed-toolbar-position-left.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push,
+ *.ui-panel-animate.ui-panel-content-wrap-position-left.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal,
+ *.ui-panel-animate.ui-panel-content-wrap-position-left.ui-panel-content-wrap-open.ui-panel-content-wrap-display-push {
+ *    -webkit-transform: translate3d(20em,0,0);
+ *    -moz-transform: translate3d(20em,0,0);
+ *    transform: translate3d(20em,0,0);
+ *}
+ */
+
+
+/*右边展开设置宽度*/
+/* animated: panel left open (for reveal and push) */
+/*
+ *.ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-reveal,
+ *.ui-panel-animate.ui-panel-content-fixed-toolbar-position-right.ui-panel-content-fixed-toolbar-open.ui-panel-content-fixed-toolbar-display-push,
+ *.ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-reveal,
+ *.ui-panel-animate.ui-panel-content-wrap-position-right.ui-panel-content-wrap-open.ui-panel-content-wrap-display-push {
+ *    -webkit-transform: translate3d(-20em,0,0);
+ *    -moz-transform: translate3d(20em,0,0);
+ *    transform: translate3d(20em,0,0);
+ *
+ *}
+ */
+
+
+
+
+
+
+
+
+

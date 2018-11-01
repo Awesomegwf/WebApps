@@ -1,0 +1,65 @@
+#gallery-list {
+    width: 100%;
+    height: 100%;
+}
+
+#gallery-list-area {
+    width: 100%;
+    height: 100%;
+    background: url(../media/img/background-img.jpg) no-repeat;
+    background-size:100% 100%;
+}
+
+#gallery-list-icons{
+    max-height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    overflow-y: scroll;
+}
+
+#gallery-list-icons img {
+    width: 25%;
+/*    position: absolute;*/
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*#yuanshuai {
+    width: 25%;
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+#zhanyi {
+    width: 25%;
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+}*/
+
+
+#shoucangjia {
+    width: 10%;
+    position: absolute;
+    bottom: 3.5%;
+    left: 63%;
+}
+
+#shezhi {
+    width: 10%;
+    position: absolute;
+    bottom: 3.5%;
+    left: 75%;
+}
+
+#bangzhu {
+    width: 10%;
+    position: absolute;
+    bottom: 3.5%;
+    left: 86%;
+}
+
+
+

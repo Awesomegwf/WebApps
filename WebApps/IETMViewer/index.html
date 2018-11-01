@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>电子交互手册</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" type="text/css" href="css/products.css">
+	<link rel="stylesheet" type="text/css" href="css/doc.css">
+    <link rel="stylesheet" type="text/css" href="css/drawer.css">
+    <link rel="stylesheet" type="text/css" href="css/side-nav.css">
+
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/search/lunr.js"></script>
+	<!-- <script src="js/iscroll.js"></script> -->
+	<script src="js/drawer.js"></script>
+	<script defer src="js/login.js"></script>
+
+	<script defer src="js/products.js"></script>
+    <script defer src="data/load.js"></script>
+
+    <!--<script src="js/note_bookmark/datagrid.js"></script>-->
+    <!--<script src="js/note_bookmark/requere.js"></script>-->
+    <script defer src="js/note_bookmark/tap.js"></script>
+    <script defer src="js/note_bookmark/public.js"></script>
+	<script defer src="js/note_bookmark/doc.js"></script>
+    <script defer src="js/note_bookmark/panel.js"></script> 
+	<script defer src="js/note_bookmark/doc_database.js"></script>
+
+	<script src="js/database/database.js"></script>
+	<script defer src="js/search/searchMain.js"></script>
+    <script src="js/side-nav.js"></script>
+    <script src="js/menu.js"></script>
+</head>
+
+<body>
+
+    <div data-role="page" id="login">
+        <form name="auth" method="get" action="">
+            <div class="ui-field-contain" id="login-box">
+                <input type="text" name="name" id="username" placeholder="用户名">
+                <input type="password" name="password" id="password" placeholder="密码">
+                <br />
+                <button id="login-button" class="ui-btn ui-btn-f" type="submit">登录</button>
+                <div data-role="popup" id="myPopup" class="ui-content">
+                    <div data-role='popup' id="username-popup" class="ui-content" data-arrow="t" data-position-to="#username" data-transition="fade">请输入用户名</div>
+                    <div data-role='popup' id="password-popup" class="ui-content" data-arrow="t" data-position-to="#password" data-transition="fade">请输入密码</div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div data-role="page" id="products-list">
+        <div data-role="header" class="ui-bar ui-bar-f">
+            <h1>综合训练手册</h1>
+            <!-- 		<a href=""><img src="icon/function.svg"></a> -->
+        </div>
+        <div data-role="content" id="products-content" style="background: #f2f2f2; height: 100%;">
+            <h1>产品目录</h1>
+            <a href="#product"><img class="product-demo" src="images/demo.jpg"></a>
+        </div>
+    </div>
+
+<div data-role="page" id="product" >
+	<div data-role="header">
+		<h1>产品信息</h1>
+		<a href="#search" class="ui-btn ui-corner-all ui-icon-bars ui-btn-icon-notext" style="float: right;">图标</a>
+	</div>
+	<div data-role="content" >
+		<h1>手册列表</h1>
+        <!-- <h2><a id="manual-demo1" href="#manual">吊车</a></h2> -->
+        <h2><a id="manual-demo2" href="#manual">底座</a></h2>
+       <!-- <h2><a id="manual-demo1" href="#manual">手册1</a></h2> -->
+	</div>
+</div>
+
+<div data-role="page" id="search" >
+	<div data-role="header" data-add-back-btn="true" data-back-btn-text="返回" class="ui-bar-x">
+		<h1>全文搜索</h1>
+
+	</div>
+	<div data-role="content" >
+		<div id="search-text-input-div" style="float: left">
+        <input type="search" name="search" id="search-text-input" placeholder="请输入搜索关键字..." style="width: 200px">
+			<button id="searchButton">搜索</button>
+		<div id="showSearch"></div>
+    </div>
+	</div>
+</div>
+
+<div data-role="page" id="manual" class="ui-content">
+    <div data-role="panel" id="Doc_sidebar_Panel" data-display="overlay">
+        <div class="ui-grid-b" id="menu-header" style="width:98%;margin:1%;">
+            <div data-role="content" class="ui-content ui-grid-b headerdiv" style="padding:1%;">
+                <div data-role="content" class="ui-block-a" style="padding:3%;">
+                    <div data-role="main" class="ui-content" style="padding:0;">
+                        <a id="tree-icon" toshow="tree-root" class="ui-btn header-btn">
+                            <img src="./icon/nav.png" width="100%" />
+                        </a>
+                    </div>
+                </div>
+                <div data-role="main" class="ui-block-b" style="padding:3%;">
+                    <div data-role="main" class="ui-content" style="padding:0;">
+                        <a id="bookmark-icon" toshow="bookmark-root" class="ui-btn header-btn">
+                            <img src="./icon/bookmark.png" width="100%" />
+                        </a>
+                    </div>
+                </div>
+                <div data-role="main" class="ui-block-c" style="padding:3%;">
+                    <div data-role="main" class="ui-content" style="padding:0;">
+                        <a id="note-icon" toshow="note-root" class="ui-btn header-btn">
+                            <img src="./icon/note.png" width="100%" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <hr>
+				<div id="note-root" class="menu-root">
+					note-root
+				</div>
+				<div id="bookmark-root" class="menu-root">
+					<!-- bookmark-root -->
+				</div>
+                <div id="tree-root" class="menu-root">
+                    <!-- menu in here -->
+                </div>
+        </div>
+
+
+<!-- 文档页头部弹出栏 -->
+<div id = "doc_content_header_pop" class = "Doc_content_header_pop" >
+    <table>
+        <tr>
+        <td><img id = "back_to_product" class="icon" src="icon/close1-01.png"></td>
+        <td><img id = "setting_icon" class="icon" src="icon/setting1-01.png"></td>
+        </tr>   
+    </table>    
+</div>
+
+<!-- 文档页底部弹出栏 -->
+<div id = "doc_content_footer_pop" class = "Doc_content_footer_pop" >
+    <table>
+        <!-- <tr class=" footer_row4"> 
+        <td>   
+        <img class="icon previous_chapter" src="icon/more1-01.png">
+        <input class="input" min="10" max="100" id="chapter-input_bar" data-role="none" type="range" >    
+        <img class="icon next_chapter" src="icon/more1-01.png">
+        </td>
+        </tr> -->
+        
+        <tr class=" footer_row3">
+            <td >
+            <img class="icon" id = "fontsize_de" src="icon/fontsize_de1-01.png">
+            <input class="input" min="10" max="100" id="fontsize-input_bar" data-role="none" type="range">
+            <img class="icon" id = "fontsize_in" src="icon/fontsize_in1-01.png">
+            </td>
+            <td >
+            <img class="icon" id ="lightness_de" src="icon/lightness_de1-01.png">
+            <input class="input" min="10" max="100" id="lightness-input_bar" data-role="none" type="range">
+            <img class="icon" id ="lightness_in" src="icon/lightness_in1-01.png">
+            </td>    
+        </tr>
+
+        <tr class="foot-tr footer_row2">
+            <td class="td_right ">
+            <img id = "linespacing_small" class="icon " src="icon/linespacing_small2-01.png">
+            <img id = "linespacing_middle" class="icon " src="icon/linespacing_middle1-01.png">
+            <img id = "linespacing_big" class="icon " src="icon/linespacing_big1-01.png">
+            </td>
+            <td class="td_left ">
+            <img class="icon " id = "bgcolor_white" src="icon/backgroundcolor_white2-01.png">
+            <img class="icon " id = "bgcolor_yellow" src="icon/backgroundcolor_yellow1-01.png">
+            <img class="icon " id = "bgcolor_green" src="icon/backgroundcolor_green1-01.png">
+            </td>    
+        </tr>
+        <tr class="bordered">
+            <!-- <hr class="footer_hr1"> -->
+        </tr>
+        
+        <tr class=" footer_row1">
+            <td>
+            <img id = "panel_nav_icon" class="icon" src="icon/nav.png">
+            </td>           
+            <td>
+            <img id = "add_bookmark_id" class="icon panel_addbookmark_icon" src="icon/addbookmark1-01.png">
+            </td>            
+        </tr>
+
+    </table>    
+</div>
+
+<!--setting page-->
+<div id = "setting_page"  >
+        <div >
+        <img id = "SettingPage_back_icon" class="left icon" src="icon/back.png">
+        </div>
+        <hr class="setting_hr1">
+        <div id ="Scroll_mode">
+        <!-- 滚动模式 -->
+        </div>
+        <hr class="setting_hr2">
+        <div id ="Page_mode">
+        <!-- 翻页模式 -->
+        </div>
+        <hr class="setting_hr3">
+</div>
+
+<!--delete confirm box-->
+    <!-- <div id = "delete_confirm" class = "Doc_content_footer_pop_X" >
+        <hr class="confirm_hr0">
+        确认删除？
+        <hr class="confirm_hr1">
+        <div id ="confirm_cancel">取消</div>
+        <hr class="confirm_hr2">
+        <div id ="confirm_delete">删除</div>
+        <hr class="confirm_hr3">
+    </div> -->
+<!--载入各文档区-->
+        <div data-role="content" id ="Page_content_div" class="Page_content_div">
+            when show this balank page,please back to product list...
+        </div>
+</div>
+
+</body>
+
+</html>

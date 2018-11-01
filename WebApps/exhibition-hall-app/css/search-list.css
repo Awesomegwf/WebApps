@@ -1,0 +1,46 @@
+.record-instance {
+    margin: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+    height: 222px;
+}
+
+.record-thumbnail-container {
+    width: 163px;
+    height: 200px;
+	position: relative;
+	float: left;
+}
+
+.record-thumbnail {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.multi-files {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+}
+
+.record-short-text {
+	float: left;
+	width: 180px;
+	margin-top: 50px;
+	margin-left: 30px;
+	text-align: center;
+}
+
+.record-long-text {
+	width: 600px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+	text-align: left;
+}
+
+~  

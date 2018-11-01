@@ -1,0 +1,32 @@
+{
+        "name": "北斗",
+        "description":"Beidou satellite navigation system application",
+        "launch_path": "/index.html",
+        "type": "web",
+        "developer": {
+                "name": "Kylin",
+                "url": "http://www.kylinos.cn"
+        },
+        "permissions": {
+                "device-storage:sdcard": {"access": "readwrite"},
+                "device-storage:pictures":{ "access": "readonly" },
+                "device-storage:music":{ "access": "readonly" },
+                "device-storage:videos":{ "access": "readonly" },
+                "audio-channel-content":{},
+                "power":{},
+                "idle":{},
+                "geolocation":{}
+        },
+        "locales":{
+            "en-US":{"name":"BDS-MAP","description":"Beidou satellite navigation system"},
+            "zh-CN":{"name":"北斗","description":"北斗导航系统"}
+        },
+        "default_locale":"zh-CN",
+        "icons": {
+                "128": "/resources/start.png"
+        },
+        "orientation": "portrait",
+        "fullscreen": false,
+        "origin":"app://BDS_MAP.gaiamobile.org",
+        "version":"0.1"
+}

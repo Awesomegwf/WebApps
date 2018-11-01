@@ -1,0 +1,141 @@
+<!-- 检索页面 侧边栏 -->
+<div class="sidebar" id="search">
+    <div class="navbar">
+        <a href="#gallery-list" data-transition="none" class="nav"><img src="icons/nav_01.png"></a>
+        <a href="#gallery" data-transition="none" class="nav"><img src="icons/nav_02.png"></a>
+        <a href="" data-transition="none" class="nav current" id="search"><img src="icons/nav_03.png"></a>
+        <a href="#favorites" data-transition="none" class="nav"><img src="icons/nav_04.png"></a>
+        <a href="#settings" data-transition="none" class="nav"><img src="icons/nav_05.png"></a>
+    </div>
+</div>
+<!-- 检索页面 header -->
+<div class="header">
+    <div id="currenthalldiv">
+        <select data-role="none" id="currenthall" title="请选择收藏夹">
+            <option id="firstHallOption">人物展厅</option>
+            <option id = 'secondHallOption' value="">普通展厅</option>
+        </select>
+    </div>
+    <div id="full-text-search-div">
+        <p id="full-text-search-text">全文检索</p>
+    </div>
+    <div id="search-text-input-div">
+        <input type="search" name="search" id="search-text-input" placeholder="请输入姓名，拼音缩写或关键字...">
+    </div>
+    <div id="search-confirm-div">
+        <img src="icons/search.png" id="search-confirm">
+    </div>
+    <div style="height: 50px; float: right; margin-right: 120px;">
+        <a href="#filter" id="filter-entry"><img src="icons/filter.png" id="filter-entry-img"></a>
+        <a href="#record-div" id="style-switch"><img src="icons/tile.png" id="list-style"></a>
+    </div>
+</div>
+
+<div class="main" id="search-result-area">
+    <div id="filter-box">
+        <div class="options">
+            <p><b>军衔：</b>
+                <span class="rank">元帅</span>
+                <span class="rank">大将</span>
+                <span class="rank">上将</span>
+                <span class="rank">中将</span>
+                <span class="rank">少将</span>
+                <span class="rank">师</span>
+                <span class="rank">旅</span>
+                <span class="rank">团</span>
+                <span class="rank">营</span>
+                <span class="rank">连</span>
+                <span class="rank">排</span>
+                <span class="rank">兵</span>
+            </p>
+        </div>
+                          
+        <div class="options" id = "birth">
+            <p><b>籍贯：</b>
+            <div id="birthDiv">
+                <span class="birthplace">北京</span>
+                <span class="birthplace">天津</span>
+                <span class="birthplace">河北</span>
+                <span class="birthplace">山西</span>
+                <span class="birthplace">内蒙古</span>
+                <span class="birthplace">辽宁</span>
+                <span class="birthplace">吉林</span>
+                <span class="birthplace">黑龙江</span>
+                <span class="birthplace">上海</span>
+                <span class="birthplace">江苏</span>
+                <span class="birthplace">浙江</span>
+                <span class="birthplace">安徽</span>
+                <span class="birthplace">福建</span>
+                    <span class="birthplace">江西</span>
+                    <span class="birthplace">山东</span>
+                    <span class="birthplace">河南</span>
+                    <span class="birthplace">湖北</span>
+                    <div id = "divBr">
+                        <span class="birthplace">湖南</span>
+                    <span class="birthplace">广东</span>
+                    <span class="birthplace">广西</span>
+                    <span class="birthplace">海南</span>
+                    <span class="birthplace">重庆</span>
+                    <span class="birthplace">四川</span>
+                    <span class="birthplace">贵州</span>
+                    <span class="birthplace">云南</span>
+                    <span class="birthplace">西藏</span> 
+                    <span class="birthplace">陕西</span>
+                    <span class="birthplace">甘肃</span>
+                    <span class="birthplace">青海</span>
+                    <span class="birthplace">宁夏</span>
+                    <span class="birthplace">新疆</span>
+                    <span class="birthplace">香港</span>
+                    <span class="birthplace">澳门</span>
+                    <span class="birthplace">台湾</span>
+                    </div>
+                    
+            </div>  
+                
+            </p>
+        </div>
+
+        <div class="options">
+            <p ><b>姓氏：</b>
+                <span class="abbr">A</span>
+                <span class="abbr">B</span>
+                <span class="abbr">C</span>
+                <span class="abbr">D</span>
+                <span class="abbr">E</span>
+                <span class="abbr">F</span>
+                <span class="abbr">G</span>
+                <span class="abbr">H</span>
+                <span class="abbr">I</span>
+                <span class="abbr">J</span>
+                <span class="abbr">K</span>
+                <span class="abbr">L</span>
+                <span class="abbr">M</span>
+                <span class="abbr">N</span>
+                <span class="abbr">O</span>
+                <span class="abbr">P</span>
+                <span class="abbr">Q</span>
+                <span class="abbr">R</span>
+                <span class="abbr">S</span>
+                <span class="abbr">T</span>
+                <span class="abbr">U</span>
+                <span class="abbr">V</span>
+                <span class="abbr">W</span>
+                <span class="abbr">X</span>
+                <span class="abbr">Y</span>
+                <span class="abbr">Z</span>
+            </p>
+        </div>
+    </div>
+
+
+
+    <div id="record-div">
+        
+    </div>
+
+    <audio preload="auto" style="display: none;" id="otherrecordaudio">
+        <source id ="otherrecordaudiosrc" style="display: none;" />
+    </audio>
+    
+    </div>
+<div class="footer" id="search-footer">中国人民解放军档案馆</div>

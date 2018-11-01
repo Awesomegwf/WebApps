@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<keyboard size="642,282" def="keyboard_Py26" bkcolor="0xFFA0A0DC" bkimg="Resources\\ATM\\bk_all.bmp,4,4,50,2">
+	<font family="微软雅黑" size="24" bold="0" italic="0"/>
+	<font family="微软雅黑" size="16" bold="0" italic="0"/>
+	<font family="微软雅黑" size="16" bold="1" italic="0"/>
+	
+	<comp size="500,25" pos="20,5" text_color="0xFFB96205" font="2" marginX="12"/>
+	<cand size="500,25" pos="20,36" count="0" space="10" stretch="10,10,20,20" selecttext_color="0xFF1111ff" text_color="0xFF1111ff" select_bkcolor="0x00000000" pushed_bkcolor="0x4c5b5b5e" text_merge="5,5,5,5" font="1">
+		<pageup bkimg="Resources\\ATM\\pgup.png" size="25,16" pos="588,40"/>
+		<pagedown bkimg="Resources\\ATM\\pgdown.png" size="25,16" pos="613,40"/>
+	</cand>
+
+	<keyboard_layout type="keyboard_layout" name="keyboard_Py26">
+		<key type="key26" text="q" name="q" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="2,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="w" name="w" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="58,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="e" name="e" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="114,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="r" name="r" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="170,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="t" name="t" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="226,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="y" name="y" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="282,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="u" name="u" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="338,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="i" name="i" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="394,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="o" name="o" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="450,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="p" name="p" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="506,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="delete" bkimg="Resources\\ATM\\back.bmp" hotimage="Resources\\ATM\\back_push.bmp" size="67,52" pos="573,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="48,48" pos="150,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="key26" text="a" name="a" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="38,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="s" name="s" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="94,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="d" name="d" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="150,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="f" name="f" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="206,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="g" name="g" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="262,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="h" name="h" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="318,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="j" name="j" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="374,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="k" name="k" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="430,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="l" name="l" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="486,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="enter" bkimg="Resources\\ATM\\enter.bmp" hotimage="Resources\\ATM\\enter_push.bmp" size="96,52" pos="544,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5" enter_pys="">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="key26" text="z" name="z" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="65,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="x" name="x" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="121,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="c" name="c" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="177,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="v" name="v" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="233,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="b" name="b" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="289,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="n" name="n" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="345,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="m" name="m" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="401,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="ch_en" bkimg="Resources\\ATM\\chEn.bmp" hotimage="Resources\\ATM\\chEn_push.bmp" toggle="1" toggle_bkimg="Resources\\ATM\\Ench.bmp" size="96,52" pos="544,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="function" text="" bkimg="Resources\\ATM\\123_normal.bmp" hotimage="Resources\\ATM\\123_push.bmp" size="96,52" pos="2,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5" switch_to="keyboard_number">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="space" bkimg="Resources\\ATM\\space.bmp" size="332,50" pos="118,218" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="shift" bkimg="Resources\\ATM\\low.bmp" hotimage="Resources\\ATM\\low_push.bmp" size="97,52" pos="456,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5" switch_to="keyboard_En26">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="hide" bkimg="Resources\\ATM\\keyboard.bmp" hotimage="Resources\\ATM\\keyboard_push.bmp" size="67,52" pos="573,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+	</keyboard_layout>
+	
+	<keyboard_layout type="keyboard_layout" name="keyboard_En26">
+		<key type="key26" text="Q" name="Q" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" pressedimg="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="2,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="W" name="W" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="58,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="E" name="E" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="114,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="R" name="R" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="170,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="T" name="T" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="226,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="Y" name="Y" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="282,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="U" name="U" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="338,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="I" name="I" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="394,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="O" name="O" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="450,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="P" name="P" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="506,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="delete" bkimg="Resources\\ATM\\back.bmp" hotimage="Resources\\ATM\\back_push.bmp" size="67,52" pos="573,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="48,48" pos="150,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="key26" text="A" name="A" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="38,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="S" name="S" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="94,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="D" name="D" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="150,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="F" name="F" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="206,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="G" name="G" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="262,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="H" name="H" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="318,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="J" name="J" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="374,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="K" name="K" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="430,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="L" name="L" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="486,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="enter" output_py="0" bkimg="Resources\\ATM\\enter.bmp" hotimage="Resources\\ATM\\enter_push.bmp" size="96,52" pos="544,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="key26" text="Z" name="Z" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="65,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="X" name="X" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="121,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="C" name="C" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="177,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="V" name="V" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="233,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="B" name="B" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="289,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="N" name="N" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="345,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="M" name="M" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="401,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="ch_en" bkimg="Resources\\ATM\\enCh.bmp" size="96,52" pos="544,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="function" text="" bkimg="Resources\\ATM\\123_normal.bmp" hotimage="Resources\\ATM\\123_push.bmp" size="96,52" pos="2,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5" switch_to="keyboard_number">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="space" bkimg="Resources\\ATM\\space.bmp" size="332,50" pos="118,218" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="shift" bkimg="Resources\\ATM\\up.bmp" hotimage="Resources\\ATM\\up_push.bmp" size="97,52" pos="456,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5"  switch_to="keyboard_Py26">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="hide" bkimg="Resources\\ATM\\keyboard.bmp" hotimage="Resources\\ATM\\keyboard_push.bmp" size="67,52" pos="573,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+	</keyboard_layout>
+	
+	<keyboard_layout type="keyboard_layout" name="keyboard_number">
+		<key type="key26" text="1" name="1" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="2,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="2" name="2" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="58,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="3" name="3" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="114,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="4" name="4" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="170,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="5" name="5" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="226,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="6" name="6" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="282,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="7" name="7" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="338,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="8" name="8" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="394,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="9" name="9" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="450,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="0" name="0" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="506,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="delete" bkimg="Resources\\ATM\\bakc.bmp" hotimage="Resources\\ATM\\back_push.bmp" size="67,52" pos="573,58" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="48,48" pos="150,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="key26" text="-" name="-" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="38,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="/" name="/" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="94,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text=":" name=":" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="150,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text=";" name=";" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="206,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="(" name="(" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="262,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text=")" name=")" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="318,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="$" name="$" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="374,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="&amp;" name="&amp;" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="430,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="@" name="@" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="486,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="enter" bkimg="Resources\\ATM\\enter.bmp" hotimage="Resources\\ATM\\enter_push.bmp" size="96,52" pos="544,111" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="key26" text="~" name="~" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="65,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="^" name="^" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="121,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="," name="," bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="177,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="." name="." bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="233,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="?" name="?" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="289,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="!" name="!" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="345,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="key26" text="*" name="*" bkimg="Resources\\ATM\\zimu_normal.bmp" hotimage="Resources\\ATM\\zimu_push.bmp" size="54,52" pos="401,165" stretch="10,10,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		
+		<key type="function" text="" bkimg="Resources\\ATM\\ch.bmp" hotimage="Resources\\ATM\\ch_push.bmp" size="96,52" pos="2,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5" switch_to="keyboard_Py26">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="space" bkimg="Resources\\ATM\\space.bmp" size="332,50" pos="118,218" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="shift" bkimg="Resources\\ATM\\low.bmp" size="97,52" pos="456,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5" switch_to="keyboard_En26">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+		<key type="function" text="" name="hide" bkimg="Resources\\ATM\\keyboard.bmp" hotimage="Resources\\ATM\\keyboard_push.bmp" size="67,52" pos="573,217" stretch="0,0,20,20" text_color="0xff555555" text_merge="5,5,5,5">
+			<down pic="xxx.png"/>
+			<pop pic="xxx.png" size="54,52" pos="0,0" stretch="10,10,20,20" text_merge="5,5,5,5" text_color="0xAAAF0101"/>
+		</key>
+	</keyboard_layout>
+</keyboard>

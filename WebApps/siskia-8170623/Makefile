@@ -1,0 +1,3 @@
+all:
+	g++ -o sougoutest -I./skia/include/core -I./skia/include/config  -I./include -I./skia/include/gpu  -I./sougou/include ./main.cpp src/t_penSkia.cpp  ./src/t_hdcSkia.cpp  ./src/t_wndTopSkia.cpp ./src/t_fontSkia.cpp ./src/t_timerSkia.cpp ./src/t_wndPopUpSkia.cpp ./src/t_imageSkia.cpp  -Lsougou/x86_64-linux-gnu/sogoulib/ -lSGKeyboard skia/libskia.*   -Wl,-rpath -Wl,"skia" -std=c++11 -ldl -ggdb3
+	

@@ -1,0 +1,142 @@
+body,
+ul,
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+.menu ul {
+    background: url("../icon/ul-bg.gif") repeat-y 5px 10px;
+}
+
+.menu ul li {
+    padding: 5px 0px 2px 15px;
+    background: url("../icon/tree-ul-li.gif") no-repeat 5px -30px;
+}
+
+.menu ul li ul {
+    display: none;
+}
+
+.menu ul li em {
+    cursor: pointer;
+    display: inline-block;
+    width: 15px;
+    float: left;
+    height: 16px;
+    margin-left: -14px;
+    background: url("../icon/tree-ul-li.gif") no-repeat -32px 4px;
+}
+
+.menu ul li em.off {
+    background-position: -17px -16px;
+}
+
+.menu ul li#end {
+    background-color: #FFF;
+}
+
+.menu ul.off {
+    display: block;
+}
+
+.menu a {
+    background: url(../icon/file.png) no-repeat center left;
+    display: block;
+    padding: 2px 0;
+    padding-left: 19px;
+    text-decoration: none;
+    /*font-weight:bold;*/
+    /*border-bottom:1px solid #DADADA;*/
+    font-size: 1rem;
+}
+
+.menu {
+    position: relative;
+    margin-left: 10px;
+    margin-top: 5px;
+    /* height: 200px; */
+    width: 95%;
+    overflow: auto;
+    /* border: #777777 1px solid; */
+    padding: 1%;
+}
+
+.dir-tree span:hover {
+    cursor: Pointer;
+}
+
+.dir-tree div {
+    margin: 1%;
+}
+
+
+/* .dir-tree {
+    padding: 5px;
+} */
+
+.tree-name {
+    /* font-size: 20px; */
+    width: 87%;
+    /* margin-left: 12%; */
+    /* height: 50px; */
+    padding: 0px;
+    background-color: #eeeeee;
+    /* display: table-cell; */
+    text-align: center;
+    vertical-align: middle;
+    /* border: #6f92ff 2px solid; */
+}
+
+.tree-name div:hover {
+    cursor: Pointer;
+}
+
+
+/* .header {
+    width: 30%;
+    font-size: 20px;
+    background-color: #777777;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+    border: #777777 1px solid;
+} */
+
+.header div:hover {
+    cursor: Pointer;
+}
+
+.root1 {
+    /* TODO  */
+    overflow: auto;
+    width: 100%;
+    /* border: #1dc58d 2px solid; */
+}
+
+.btn-clicked {
+    box-shadow: 0px 0px 10px #888888;
+}
+
+.side-nav {
+    width: 32.25rem;
+}
+
+.headerbtn {
+    border: #888888 1px solid;
+    margin: 1%;
+    padding: 1%;
+}
+
+.ui-panel-inner {
+    padding: 1%;
+}
+
+.menu-root {
+    overflow: auto;
+}

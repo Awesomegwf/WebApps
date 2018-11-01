@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE dmodule [
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10169-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10169-A-001-01.cgm" NDATA cgm>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10171-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10171-A-001-01.tif" NDATA tif>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10173-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10173-A-001-01.wrl" NDATA wrl>
+]>
+<!-- Edited with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-1/xml_schema_master/procedschema.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" />
+        <language languageIsoCode="zh" countryIsoCode="CN" />
+        <issueInfo issueNumber="001" inWork="00" />
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2017" month="06" day="22" />
+        <dmTitle>
+          <techName>底座 - 样例</techName>
+          <infoName>安装</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01" />
+      <responsiblePartnerCompany enterpriseCode="90012">
+        <enterpriseName>十二所</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="90012">
+        <enterpriseName>十二所</enterpriseName>
+      </originator>
+      <applic>
+        <displayText>
+          <simplePara>ALL</simplePara>
+        </displayText>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" />
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified />
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <refs>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="941" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="DEMO" subSubSystemCode="1" subSystemCode="2" systemCode="29" systemDiffCode="A" />
+        </dmRefIdent>
+      </dmRef>
+      <dmRef>
+        <dmRefIdent>
+          <dmCode assyCode="21" disassyCode="00" disassyCodeVariant="A" infoCode="941" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="DEMO" subSubSystemCode="1" subSystemCode="2" systemCode="29" systemDiffCode="A" />
+        </dmRefIdent>
+      </dmRef>
+    </refs>
+    <procedure>
+      <commonInfo>
+        <para>1#、2#系统各有1个压力滤组件，每个压力滤组件都有一个发动机驱动泵压力开关，所 有发动机驱动泵压力开关都为同一型号。</para>
+      </commonInfo>
+      <preliminaryRqmts>
+        <productionMaintData>
+          <zoneRef zoneNumber="310">
+            <name>后附件舱（球面框后的机身部分）</name>
+          </zoneRef>
+          <accessPointRef accessPointNumber="315AB">
+            <name>后设备舱舱门</name>
+          </accessPointRef>
+        </productionMaintData>
+        <reqCondGroup>
+          <noConds />
+        </reqCondGroup>
+        <reqSupportEquips>
+          <supportEquipDescrGroup>
+            <supportEquipDescr>
+              <name>保护盖</name>
+              <identNumber>
+                <manufacturerCode>无</manufacturerCode>
+                <partAndSerialNumber>
+                  <partNumber>NAS845,NAS836，NAS832,NAS841</partNumber>
+                </partAndSerialNumber>
+              </identNumber>
+              <reqQuantity />
+            </supportEquipDescr>
+            <?Pub Caret 10?>
+          </supportEquipDescrGroup>
+        </reqSupportEquips>
+        <reqSupplies>
+          <supplyDescrGroup>
+            <supplyDescr>
+              <name>低密度、低粘度、阻燃型磷 酸脂基液压油</name>
+              <identNumber>
+                <manufacturerCode>无</manufacturerCode>
+              </identNumber>
+              <reqQuantity />
+              <remarks>
+                <simplePara>Skydrol LD4 Class 1（AS 1241标准）</simplePara>
+              </remarks>
+            </supplyDescr>
+            <supplyDescr>
+              <name>保险丝</name>
+              <identNumber>
+                <manufacturerCode>无</manufacturerCode>
+              </identNumber>
+              <reqQuantity />
+              <remarks>
+                <simplePara>MS20995N32</simplePara>
+              </remarks>
+            </supplyDescr>
+            <supplyDescr>
+              <name>O形圈</name>
+              <identNumber>
+                <manufacturerCode>无</manufacturerCode>
+              </identNumber>
+              <reqQuantity />
+              <remarks>
+                <simplePara>AMM项目-3</simplePara>
+              </remarks>
+            </supplyDescr>
+          </supplyDescrGroup>
+        </reqSupplies>
+        <reqSpares>
+          <noSpares />
+        </reqSpares>
+        <reqSafety>
+          <noSafety />
+        </reqSafety>
+      </preliminaryRqmts>
+      <mainProcedure>
+        <proceduralStep>
+          <para>按以下步骤对1#液压系统发动机驱动泵1A进行安装：（参考图401）</para>
+          <proceduralStep>
+            <para>在工作区域下方放置一个1加仑（3.78L）的不锈钢的容器。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>用干净的液压油润滑新的O形圈,然后将其安装到发动机驱动泵1A压力开关上。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>将开口的保护盖移除。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>将发动机驱动泵1A压力开关安装到压力滤组件上。</para>
+          </proceduralStep>
+          <proceduralStep id="paratable">
+            <para>将发动机驱动泵1A压力开关[2]拧紧。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>对发动机驱动泵1A压力开关打保险。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>将电插头上的保护盖移除。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>将电插头连接到发动机驱动泵1A压力开关上。</para>
+          </proceduralStep>
+        </proceduralStep>
+        <proceduralStep>
+          <para>按以下步骤对2#液压系统发动机驱动泵2A进行安装：（参考图402）</para>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0002" internalRefTargetType="hotspot" xlink:href="#S0005">第1步</internalRef>在工作区域下方放置一个1加仑（3.78L）的不锈钢的容器。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0003" internalRefTargetType="hotspot" xlink:href="#S0005">第2步</internalRef>用干净的液压油润滑新的O形圈[3],然后将其安装到发动机驱动泵2A压力开关[2]上。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0004" internalRefTargetType="hotspot" xlink:href="#S0005">第3步</internalRef>将开口的保护盖移除。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0005" internalRefTargetType="hotspot" xlink:href="#S0005">第4步</internalRef>将发动机驱动泵2A压力开关[2]安装到压力滤组件[4]上。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0006" internalRefTargetType="hotspot" xlink:href="#S0005">第5步</internalRef>将发动机驱动泵2A压力开关[2]拧紧。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0007" internalRefTargetType="hotspot" xlink:href="#S0005">第6步</internalRef>对发动机驱动泵2A压力开关打保险。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0008" internalRefTargetType="hotspot" xlink:href="#S0005">第7步</internalRef>将电插头[1]上的保护盖移除。</para>
+          </proceduralStep>
+          <proceduralStep>
+            <para>
+              <internalRef internalRefId="S0009" internalRefTargetType="hotspot" xlink:href="#S0005">第8步</internalRef>将电插头[1]连接到发动机驱动泵2A压力开关[2]上。</para>
+          </proceduralStep>
+        </proceduralStep>
+        <figure id="F0001">
+          <title>1#系统发动机驱动泵压力开关</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10169-A-001-01"></graphic>
+        </figure>
+        <figure id="F0003">
+          <title>2#测试</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10173-A-001-01">
+            <hotspot applicationStructureName="1" id="S0002" />
+            <hotspot applicationStructureName="2" id="S0003" />
+            <hotspot applicationStructureName="3" id="S0004" />
+            <hotspot applicationStructureName="4" id="S0005" />
+            <hotspot applicationStructureName="5" id="S0006" />
+            <hotspot applicationStructureName="6" id="S0007" />
+            <hotspot applicationStructureName="7" id="S0008" />
+            <hotspot applicationStructureName="8" id="S0009" />
+          </graphic>
+        </figure>
+        <figure id="fig-0001">
+          <title>2#系统发动机驱动泵压力开关</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10171-A-001-01" />
+        </figure>
+      </mainProcedure>
+      <closeRqmts>
+        <reqCondGroup>
+          <reqCondCircuitBreaker>
+            <reqCond />
+            <circuitBreakerDescrGroup>
+              <circuitBreakerDescrSubGroup>
+                <circuitBreakerDescr>
+                  <circuitBreakerRef circuitBreakerNumber="B1-2922" />
+                  <name>ACMP 2B</name>
+                  <accessPointRef accessPointNumber="P6.1" />
+                  <circuitBreakerLocation>J11</circuitBreakerLocation>
+                </circuitBreakerDescr>
+              </circuitBreakerDescrSubGroup>
+              <circuitBreakerDescrSubGroup>
+                <circuitBreakerDescr>
+                  <circuitBreakerRef circuitBreakerNumber="B1-2934" />
+                  <name>ACMP 2B</name>
+                  <accessPointRef accessPointNumber="P6.1" />
+                  <circuitBreakerLocation>G12</circuitBreakerLocation>
+                </circuitBreakerDescr>
+              </circuitBreakerDescrSubGroup>
+              <circuitBreakerDescrSubGroup>
+                <circuitBreakerDescr>
+                  <circuitBreakerRef circuitBreakerNumber="B1-2923" />
+                  <name>ACMP 1B CNTOR</name>
+                  <accessPointRef accessPointNumber="P6.2" />
+                  <circuitBreakerLocation>P13</circuitBreakerLocation>
+                </circuitBreakerDescr>
+              </circuitBreakerDescrSubGroup>
+              <circuitBreakerDescrSubGroup>
+                <circuitBreakerDescr>
+                  <circuitBreakerRef circuitBreakerNumber="B1-2921" />
+                  <name>ACMP 1B</name>
+                  <accessPointRef accessPointNumber="P6.2" />
+                  <circuitBreakerLocation>H8</circuitBreakerLocation>
+                </circuitBreakerDescr>
+              </circuitBreakerDescrSubGroup>
+            </circuitBreakerDescrGroup>
+          </reqCondCircuitBreaker>
+          <reqCondNoRef>
+            <reqCond>执行任务：1#、2# 和3#液压系统液压油箱油量检查，任务号12-12-00-210-801\011。</reqCond>
+          </reqCondNoRef>
+          <reqCondDm>
+            <reqCond>执行任务：</reqCond>
+            <dmRef>
+              <dmRefIdent>
+                <dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="420" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="01" systemDiffCode="A" />
+              </dmRefIdent>
+            </dmRef>
+          </reqCondDm>
+          <reqCondNoRef>
+            <reqCond>确保发动机驱动泵1A和2A压力开关[2]四周没有液压油泄露。</reqCond>
+          </reqCondNoRef>
+          <reqCondNoRef>
+            <reqCond>用布清除工作区域的液压油。</reqCond>
+          </reqCondNoRef>
+          <reqCondNoRef>
+            <reqCond>将工作区域所有的工具、设备、材料等清理干净。</reqCond>
+          </reqCondNoRef>
+          <reqCondNoRef>
+            <reqCond>安装完1#、2＃系统发动机驱动泵1A(2A)压力开关时，关闭以下检修口盖：315AB 后设备舱舱门</reqCond>
+          </reqCondNoRef>
+        </reqCondGroup>
+      </closeRqmts>
+    </procedure>
+  </content>
+</dmodule>

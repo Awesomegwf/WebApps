@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10156-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10156-A-001-01.CGM" NDATA CGM>
+]>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-1/xml_schema_master/descriptschema.xsd">
+	<identAndStatusSection>
+		<dmAddress>
+			<dmIdent>
+				<dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="D"/>
+				<language languageIsoCode="zh" countryIsoCode="CN"/>
+				<issueInfo issueNumber="001" inWork="00"/>
+			</dmIdent>
+			<dmAddressItems>
+				<issueDate year="2017" month="06" day="22"/>
+				<dmTitle>
+					<techName>底座 - 样例</techName>
+					<infoName>组成描述</infoName>
+				</dmTitle>
+			</dmAddressItems>
+		</dmAddress>
+		<dmStatus issueType="new">
+			<security securityClassification="01"/>
+			<responsiblePartnerCompany enterpriseCode="90012">
+				<enterpriseName>十二所</enterpriseName>
+			</responsiblePartnerCompany>
+			<originator enterpriseCode="90012">
+				<enterpriseName>十二所</enterpriseName>
+			</originator>
+      <referencedApplicGroup>
+        <applic id="a001">
+          <displayText>
+            <simplePara>001,003</simplePara>
+          </displayText>
+          <evaluate andOr="or">
+            <assert applicPropertyIdent="CEC" applicPropertyType="prodattr" applicPropertyValues="001|003" />
+          </evaluate>
+        </applic>
+      </referencedApplicGroup>
+			<brexDmRef>
+				<dmRef>
+					<dmRefIdent>
+						<dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D"/>
+					</dmRefIdent>
+				</dmRef>
+			</brexDmRef>
+			<qualityAssurance>
+				<unverified/>
+			</qualityAssurance>
+		</dmStatus>
+	</identAndStatusSection>
+	<content>
+		<description>
+			<levelledPara>
+				<para>一个DM中的CGM跳转到另一个DM中的CGM</para>
+				<para>图一的热点10可以跳转到另一个DM中CGM图上的热点１，反之亦然</para>
+				<figure id="F0001">
+					<title>Figure Title</title>
+					<graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10156-A-001-01">
+						<hotspot applicationStructureIdent="hot010" applicationStructureName="10" id="hot001">
+							<dmRef referredFragment="hot007">
+								<dmRefIdent>
+									<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="01" systemDiffCode="A"/>
+								</dmRefIdent>
+							</dmRef>
+						</hotspot>
+					</graphic>
+				</figure>
+			</levelledPara>
+		</description>
+	</content>
+</dmodule>

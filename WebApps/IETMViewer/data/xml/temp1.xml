@@ -1,0 +1,594 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<?xml-stylesheet type="text/xsl" href="idstatus.xslt"?>-->
+<!DOCTYPE dmodule [
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10169-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10169-A-001-01.cgm" NDATA cgm>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10158-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10158-A-001-01.CGM" NDATA CGM>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10178-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10178-A-001-01.jpg" NDATA jpg>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10171-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10171-A-001-01.tif" NDATA tif>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10159-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10159-A-001-01.CGM" NDATA CGM>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10156-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10156-A-001-01.CGM" NDATA CGM>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10180-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10180-A-001-01.bmp" NDATA bmp>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10157-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10157-A-001-01.CGM" NDATA CGM>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10162-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10162-A-001-01.WMV" NDATA WMV>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10165-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10165-A-001-01.PVZ" NDATA PVZ>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10164-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10164-A-001-01.SWF" NDATA SWF>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10163-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10163-A-001-01.WRL" NDATA WRL>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10182-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10182-A-001-01.mp3" NDATA mp3>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10183-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10183-A-001-01.png" NDATA png>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10184-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10184-A-001-01.gif" NDATA gif>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10185-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10185-A-001-01.MPEG" NDATA MPEG>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10186-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10186-A-001-01.doc" NDATA DOC>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10187-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10187-A-001-01.pdf" NDATA PDF>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10190-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10190-A-001-01.jpg" NDATA jpg>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10191-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10191-A-001-01.jpg" NDATA jpg>
+	<!ENTITY ICN-QUY280-A-000000-A-90012-10192-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10192-A-001-01.jpg" NDATA jpg>
+]>
+<!-- Edited with Libroplanta XML Editor (http://www.libroplanta.com/) -->
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-1/xml_schema_master/descriptschema.xsd">
+  <identAndStatusSection>
+    <dmAddress>
+      <dmIdent>
+        <dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="040" infoCodeVariant="A" itemLocationCode="D" />
+        <language languageIsoCode="zh" countryIsoCode="CN" />
+        <issueInfo issueNumber="001" inWork="00" />
+      </dmIdent>
+      <dmAddressItems>
+        <issueDate year="2017" month="06" day="22" />
+        <dmTitle>
+          <techName>吊车 - 样例</techName>
+          <infoName>组成及功能描述</infoName>
+        </dmTitle>
+      </dmAddressItems>
+    </dmAddress>
+    <dmStatus issueType="new">
+      <security securityClassification="01" />
+      <responsiblePartnerCompany enterpriseCode="90012">
+        <enterpriseName>十二所</enterpriseName>
+      </responsiblePartnerCompany>
+      <originator enterpriseCode="90012">
+        <enterpriseName>十二所</enterpriseName>
+      </originator>
+      <applic id="a001">
+        <displayText>
+          <simplePara>001-002,004</simplePara>
+        </displayText>
+        <evaluate andOr="or">
+          <assert applicDisplayClass="msn" applicPropertyIdent="CEC" applicPropertyType="prodattr" applicPropertyValues="001~002|004"></assert>
+        </evaluate>
+      </applic>
+      <brexDmRef>
+        <dmRef>
+          <dmRefIdent>
+            <dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" />
+          </dmRefIdent>
+        </dmRef>
+      </brexDmRef>
+      <qualityAssurance>
+        <unverified />
+      </qualityAssurance>
+    </dmStatus>
+  </identAndStatusSection>
+  <content>
+    <description>
+      <levelledPara>
+        <title>文本编辑</title>
+        <para>加粗：<emphasis emphasisType="em01">本DM为测试用例，供展示和测试用。</emphasis></para>
+        <para>斜体：<emphasis emphasisType="em02">平台软件运行在公共处理组件的处理器上。包括部分操作系统，例如执行在处理器管理模式下的设备驱动。平台软件同样也包括诸如系统健康监测软件之类的平台应用程序。</emphasis></para>
+        <para>下划线：<emphasis emphasisType="em03">除了数据加载应用软件和NOR Flash设备驱动之外，所有的平台软件都经过了DO-178B的A级认证。</emphasis></para>
+        <para>上下标：上标<superScript> 上标 </superScript>、下标<subScript> 下标 </subScript></para>
+        <para>特殊字符：╔╗☆↑Юф∩㎎々Ⅺ</para>
+      </levelledPara>
+      <levelledPara>
+        <title>列表展示</title>
+        <para>无序列表：</para>
+        <para>
+          <randomList>
+            <title> 							“这里是无序列表的标题” 						</title>
+            <listItem>
+              <para>调度</para>
+            </listItem>
+            <listItem>
+              <para>消息队列；</para>
+            </listItem>
+            <listItem>
+              <para>数据管道；</para>
+            </listItem>
+            <listItem>
+              <para>套接字；</para>
+            </listItem>
+          </randomList>
+        </para>
+        <para>有序列表：  <sequentialList><title> 							“这里是有序列表的标题” 						</title><listItem><para>实时可移植的UNIX操作系统队列信号；</para></listItem><listItem><para>时钟与计时器；</para></listItem><listItem><para>信号灯；</para></listItem><listItem><para>消息互斥；</para></listItem></sequentialList></para>
+        <para>自定义列表：  <definitionList><title> 							“这里是定义列表的标题” 						</title><definitionListHeader><termTitle> 						术语 						</termTitle><definitionTitle> 						定义 						</definitionTitle></definitionListHeader><definitionListItem><listItemTerm>*</listItemTerm><listItemDefinition><para>处理线程的聚合；</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm>@</listItemTerm><listItemDefinition><para>存储器管理；</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm>#</listItemTerm><listItemDefinition><para>异常处理；</para></listItemDefinition></definitionListItem><definitionListItem><listItemTerm>&amp;</listItemTerm><listItemDefinition><para>共享存储器管理。</para></listItemDefinition></definitionListItem></definitionList></para>
+      </levelledPara>
+      <levelledPara>
+        <title>实体引用</title>
+        <para>引导程序负责执行上电诊断和验证操作系统、系统服务、系统配置表（table）。测试全文检索table的功能。 （SCT）对应的可选系统服务。如果系统的配置有效，导引程序将初始化正常的操作。如果系统的配置无效，导引程序将通过RS-232数据线传送诊断信息，等数据加载程序执行后导引程序再重新启动。</para>
+        <para>导引程序代码决定启动类型（warm, cold, field或者factory start）， 它会执行适当等级的通电自检测程序（POST）并且循环冗余校验系统软件的组件是否有效。</para>
+        <para>导引程序代码中也包括关机服务代码。</para>
+        <para>行内图片测试：symbol测试<symbol infoEntityIdent="ICN-QUY280-A-000000-A-90012-10190-A-001-01"></symbol>行内图片1</para>
+        <para>行内图片测试：symbol测试<symbol infoEntityIdent="ICN-QUY280-A-000000-A-90012-10191-A-001-01"></symbol>行内图片2</para>
+        <para>行内图片测试：symbol测试<symbol infoEntityIdent="ICN-QUY280-A-000000-A-90012-10192-A-001-01"></symbol>行内图片3</para>
+        <para>图片测试1：CGM</para>
+        <figure id="fig-0001">
+          <title>插图标题 CGM图示</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10169-A-001-01" />
+          <legend>
+            <definitionList>
+              <title>这里是图注标题</title>
+              <definitionListHeader>
+                <termTitle>这里是列表头术语标题</termTitle>
+                <definitionTitle>这里是列表头定义标题</definitionTitle>
+              </definitionListHeader>
+              <definitionListItem>
+                <listItemTerm>图注项1</listItemTerm>
+                <listItemDefinition>
+                  <para>这里是图注1。</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>图注项2</listItemTerm>
+                <listItemDefinition>
+                  <para>这里是图注2。</para>
+                </listItemDefinition>
+              </definitionListItem>
+              <definitionListItem>
+                <listItemTerm>图注项3</listItemTerm>
+                <listItemDefinition>
+                  <para>这里是图注3段落1。</para>
+                  <para>这里是图注3段落2。</para>
+                </listItemDefinition>
+              </definitionListItem>
+            </definitionList>
+          </legend>
+        </figure>
+        <para>图片测试2：TIF</para>
+        <figure id="fig-0002">
+          <title>插图标题 TIF图示</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10171-A-001-01" />
+        </figure>
+        <para>图片测试3：JPG</para>
+        <figure id="fig-0003">
+          <title>插图标题 JPG图示</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10178-A-001-01" />
+        </figure>
+        <para>图片测试4：BMP</para>
+        <figure id="fig-0004">
+          <title>插图标题 BMP图示</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10180-A-001-01" />
+        </figure>
+        <para>图片测试4：png</para>
+        <figure id="fig-0005">
+          <title>插图标题 png图示</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10183-A-001-01" />
+        </figure>
+        <para>图片测试4：gif</para>
+        <figure id="fig-0006">
+          <title>插图标题 gif图示</title>
+          <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10184-A-001-01" />
+        </figure>
+        <para>多媒体测试1：SWF</para>
+        <multimedia id="M0001">
+          <title>多媒体标题 SWF</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10164-A-001-01" multimediaType="video" />
+        </multimedia>
+        <para>多媒体测试2：WRL</para>
+        <multimedia id="M0002">
+          <title>多媒体标题 WRL</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10163-A-001-01" multimediaType="3D" />
+        </multimedia>
+        <para>多媒体测试3：WMV</para>
+        <multimedia id="M0003">
+          <title>多媒体标题 WMV</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10162-A-001-01" multimediaType="video" />
+        </multimedia>
+        <para>多媒体测试4：PVZ</para>
+        <multimedia id="M0004">
+          <title>多媒体标题 PVZ</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10165-A-001-01" multimediaType="3D" />
+        </multimedia>
+        <para>多媒体测试5：MP3</para>
+        <multimedia id="M0005">
+          <title>多媒体标题 MP3</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10182-A-001-01" multimediaType="audio" />
+        </multimedia>
+        <para>多媒体测试6：MPEG</para>
+        <multimedia id="M0006">
+          <title>多媒体标题 MPEG</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10185-A-001-01" multimediaType="video" />
+        </multimedia>
+        <para>office测试：doc</para>
+        <multimedia id="M0007">
+          <title>多媒体标题 DOC</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10186-A-001-01" multimediaType="other" />
+        </multimedia>
+        <para>PDF测试：pdf</para>
+        <multimedia id="M0008">
+          <title>多媒体标题 PDF</title>
+          <multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10187-A-001-01" multimediaType="other" />
+        </multimedia>
+      </levelledPara>
+      <levelledPara>
+        <title>热点交互</title>
+        <para>系统配置表是给引导程序代码和板级支持开发包(BSP)使用的数据表。 它包括描述系统和硬件组件的信息，这些信息留作引导程序和操作系统配置平台之用。</para>
+        <levelledPara>
+          <title>同一CGM中热点的跳转测试</title>
+          <figure id="F0001">
+            <title>同一CGM中热点的跳转测试</title>
+            <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10156-A-001-01">
+              <hotspot applicationStructureIdent="hot004" applicationStructureName="4" id="hot001">
+                <internalRef internalRefId="hot002" internalRefTargetType="hotspot" />
+              </hotspot>
+              <hotspot applicationStructureIdent="hot005" applicationStructureName="5" id="hot002">
+                <internalRef internalRefId="hot001" internalRefTargetType="hotspot" />
+              </hotspot>
+              <hotspot applicationStructureIdent="hot006" applicationStructureName="6" id="hot003">
+                <internalRef internalRefId="hot004" internalRefTargetType="hotspot" />
+              </hotspot>
+              <hotspot applicationStructureIdent="hot007" applicationStructureName="7" id="hot004" />
+              <hotspot applicationStructureIdent="hot011" applicationStructureName="11" id="hot200" />
+            </graphic>
+          </figure>
+          <para>上图所示，图上的热点4、热点5之间有互相跳转关系，测试图文热点双向交互：<internalRef internalRefId="hot200" internalRefTargetType="hotspot">热点11</internalRef></para>
+          <para>单向热点跳转关系：热点6可以跳转到热点7，而热点７不能跳转到热点６</para>
+        </levelledPara>
+        <levelledPara>
+          <title>同一个DM中，一个CGM的热点跳到另一个CGM的热点</title>
+          <figure id="F0002">
+            <title>一个CGM的热点跳到另一个CGM的热点</title>
+            <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10157-A-001-01">
+              <hotspot applicationStructureIdent="hot016" applicationStructureName="16" id="hot005">
+                <internalRef internalRefId="hot006" internalRefTargetType="hotspot" />
+              </hotspot>
+              <hotspot applicationStructureIdent="hot002" applicationStructureName="2" id="hot008">
+                <internalRef internalRefId="hot009" internalRefTargetType="hotspot" />
+              </hotspot>
+            </graphic>
+            <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10158-A-001-01">
+              <hotspot applicationStructureIdent="hot002" applicationStructureName="2" id="hot009">
+                <internalRef internalRefId="hot008" internalRefTargetType="hotspot" />
+              </hotspot>
+            </graphic>
+          </figure>
+          <para>第一张图的热点２跳转到第二张图的热点２，反之亦然</para>
+          <para>第一张图的热点１６跳转到图9的热点６</para>
+          <para>图9热点６会跳转到热点１</para>
+        </levelledPara>
+        <levelledPara>
+          <title>一个DM中的CGM跳转到另一个DM中的CGM</title>
+          <figure id="F0003">
+            <title>一个DM中的CGM跳转到另一个DM中的CGM</title>
+            <graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10159-A-001-01">
+              <hotspot applicationStructureIdent="hot006" applicationStructureName="6" id="hot006">
+                <internalRef internalRefId="hot007" internalRefTargetType="hotspot" />
+              </hotspot>
+              <hotspot applicationStructureIdent="hot001" applicationStructureName="1" id="hot007">
+                <dmRef referredFragment="hot001">
+                  <dmRefIdent>
+                    <dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="041" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+                  </dmRefIdent>
+                </dmRef>
+              </hotspot>
+            </graphic>
+          </figure>
+          <para>热点 1 可以跳转到另一个DM中CGM图上的热点 10，反之亦然</para>
+        </levelledPara>
+      </levelledPara>
+      <levelledPara>
+        <title>标题展示：一级段标题</title>
+        <levelledPara>
+          <title>二级段标题</title>
+          <levelledPara>
+            <title>三级段标题</title>
+            <levelledPara>
+              <title>四级段标题</title>
+              <levelledPara>
+                <title>五级段标题</title>
+              </levelledPara>
+            </levelledPara>
+          </levelledPara>
+        </levelledPara>
+      </levelledPara>
+      <levelledPara>
+        <title>多级列表展示</title>
+        <para>为了定位信息，先确认想要获得章的信息，然后在确定的章中，再查看每章开始处的章目录。</para>
+        <para> 			编号列表在本项目中只出现最多两级的层次，通常作为警告、注意、注下的内容，或在图注及表注中使用，故表现形式与S1000D有所不同。 						<sequentialList><listItem><para>第一层编号为阿拉伯数字编号加方括号，形如[1]；</para></listItem><listItem><para>第二层编号为阿拉伯数字编号加-加方括号，形如[-1-]</para><para><sequentialList><listItem><para>第一层编号为阿拉伯数字编号加方括号，形如[1]；</para></listItem><listItem><para>第二层编号为阿拉伯数字编号加-加方括号，形如[-1-]</para></listItem></sequentialList></para></listItem></sequentialList></para>
+        <para> 			在将地面电源插头与机上的地面电源插座连接之前应确认： 						<randomList><listItem><para>机上的地面电源插座上的插针完好清洁；</para></listItem><listItem><para>地面电源插头的插孔完好清洁</para><para><randomList><listItem><para>原机电源及任务电池已装上飞机<randomList><listItem><para>三级无序列表项</para></listItem><listItem><para>三级无序列表项</para></listItem></randomList></para></listItem><listItem><para>原机交流发电机组开关已断开</para></listItem></randomList></para></listItem><listItem><para>飞机地线已接通</para></listItem></randomList></para>
+        <para>章目录中列出了所有分系统部件的维修程序的题目，比如阀门的拆卸/安装或者控制 系统的调整/测试，即各个页号组。完整的页编号系统描述请参考前面的手册编排和 编号系统段落。在确认了节或者标题后，可通过按数字顺序编排的章/节/题目和页码 查找到相关信息。</para>
+      </levelledPara>
+      <levelledPara>
+        <title>颜色标注和适用性</title>
+        <para applicRefId="a001">编号001</para>
+        <para changeMark="1" changeType="add">
+          <sequentialList>
+            <listItem>
+              <para> 部分部件位置信息包含在维修手册中101到199页号组中。</para>
+            </listItem>
+            <?Pub Caret -2?>
+            <listItem>
+              <para>通常，由机载设备位置指南（Component Location Guide，CLG）提供部件索引和部 件位置示图。 </para>
+            </listItem>
+          </sequentialList>
+        </para>
+        <para>部件所在的飞机区域或者需打开的口盖，可在位置区域和检修口盖段落中查找。</para>
+        <para>
+          <captionGroup cols="2">
+            <captionBody>
+              <captionRow>
+                <captionEntry>
+                  <caption color="co04">
+                    <captionLine>FUEL L</captionLine>
+                  </caption>
+                </captionEntry>
+                <captionEntry>
+                  <caption color="co04">
+                    <captionLine>FUEL R</captionLine>
+                  </caption>
+                </captionEntry>
+              </captionRow>
+              <captionRow>
+                <captionEntry>
+                  <caption color="co04">
+                    <captionLine>CHIP L</captionLine>
+                  </caption>
+                </captionEntry>
+                <captionEntry>
+                  <caption color="co04">
+                    <captionLine>CHIP R</captionLine>
+                  </caption>
+                </captionEntry>
+              </captionRow>
+              <captionRow>
+                <captionEntry>
+                  <caption color="co03">
+                    <captionLine>GEN L</captionLine>
+                  </caption>
+                </captionEntry>
+                <captionEntry>
+                  <caption color="co03">
+                    <captionLine>GEN R</captionLine>
+                  </caption>
+                </captionEntry>
+              </captionRow>
+              <captionRow>
+                <captionEntry>
+                  <caption color="co01">
+                    <captionLine>PITOT</captionLine>
+                  </caption>
+                </captionEntry>
+                <captionEntry>
+                  <caption color="co01">
+                    <captionLine>ANTI-ICE</captionLine>
+                  </caption>
+                </captionEntry>
+              </captionRow>
+            </captionBody>
+          </captionGroup>
+        </para>
+      </levelledPara>
+      <levelledPara>
+        <title>表格展示</title>
+        <para>表头未展示</para>
+        <table id="ACQDR_01772622987table1">
+          <title>表格标题展示</title>
+          <tgroup cols="2">
+            <colspec colname="col1" />
+            <colspec colname="col2" />
+            <tbody>
+              <row>
+                <entry align="center" nameend="col2" namest="col1" valign="middle">
+                  <para>AMTOSS</para>
+                </entry>
+              </row>
+              <row>
+                <entry nameend="col2" namest="col1">
+                  <para>维修实施结合了AMTOSS的特征而构成。按照AMTOSS编排维修程序可方便航空公司实现 自动化数据检索。典型的程序结构如下：</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>1.</para>
+                </entry>
+                <entry>
+                  <para>概述</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>2.</para>
+                </entry>
+                <entry>
+                  <para>（任务）</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>A.</para>
+                </entry>
+                <entry>
+                  <para>概述</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>B.</para>
+                </entry>
+                <entry>
+                  <para>参考资料</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>C.</para>
+                </entry>
+                <entry>
+                  <para>工具/设备</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>D.</para>
+                </entry>
+                <entry>
+                  <para>消耗性材料</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>E.</para>
+                </entry>
+                <entry>
+                  <para>消耗品/零件(仅与任务有关的项目)</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>F.</para>
+                </entry>
+                <entry>
+                  <para>位置区域</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>G.</para>
+                </entry>
+                <entry>
+                  <para>检修口盖</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>H.</para>
+                </entry>
+                <entry>
+                  <para>主题</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>(1)</para>
+                </entry>
+                <entry>
+                  <para>子任务</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>(a)</para>
+                </entry>
+                <entry>
+                  <para>分步骤</para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+        <para>为使用户能更便捷地定位所需信息将题目合理地划分成小类，它们通常称为页号 组。页编号的第一位决定了每个页号组包含的信息类型，这些信息类型由S1000D规范给出，它们分为：部件位置、维修实施、保养、拆卸/安装、调整/试验、检验/检 查、清理/涂漆、修理、和放飞偏离指南维修程序。其页号组规定如下表：</para>
+        <table id="ACQDR_01772622987table0">
+          <title>页号组</title>
+          <tgroup cols="2">
+            <colspec colname="col1" align="center" />
+            <colspec colname="col2" />
+            <thead>
+              <row>
+                <entry>
+                  <para>题目类型33</para>
+                </entry>
+                <entry>
+                  <para>页号组</para>
+                </entry>
+              </row>
+            </thead>
+            <tbody>
+              <row>
+                <entry>
+                  <para>部件位置</para>
+                </entry>
+                <entry>
+                  <para>101 至199</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>维修实施<footnote id="ftn-0001"><para>This is a footnote for entry1</para></footnote></para>
+                </entry>
+                <entry>
+                  <para>201 至299</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>保养</para>
+                </entry>
+                <entry>
+                  <para>301 至399</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>拆卸/安装<footnote id="ftn-0002"><para>Second footnote</para></footnote></para>
+                </entry>
+                <entry>
+                  <para>401 至499</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>调整/试验<footnoteRef internalRefId="ftn-0001" /></para>
+                </entry>
+                <entry>
+                  <para>501 至599</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>检验/检查</para>
+                </entry>
+                <entry>
+                  <para>601 至699</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>清理/涂漆</para>
+                </entry>
+                <entry>
+                  <para>701 至799</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>修理</para>
+                </entry>
+                <entry>
+                  <para>801 至899</para>
+                </entry>
+              </row>
+              <row>
+                <entry>
+                  <para>放飞偏离指南维修程序</para>
+                </entry>
+                <entry>
+                  <para>901 至999</para>
+                </entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </levelledPara>
+      <levelledPara>
+        <title>注</title>
+        <para>警告和注意在程序类DM中进行展示</para>
+        <note>
+          <notePara>注： 请确认完成了任务结束标识符之前的所有步骤。在页下的巨大空页并不意味着已经是该 任务已经结束。如果没有确认已将整个任务完成，可能会损伤设备或者产生系统故障。</notePara>
+        </note>
+      </levelledPara>
+      <levelledPara>
+        <title>引用链接展示</title>
+        <para>维修实施和程序（MPP）<footnote id="hhh"><para>脚注1</para></footnote>由按飞机的主要功能和系统划分的章组成。每章又进一步划分为 节和题目用来表示分系统和各个单元体。每页由指定的题目编号、页编号、修改日期等标 识，详细说明如下：</para>
+        <para>每页的编号标识<footnoteRef internalRefId="hhh" />由题目编号和页号组编号（主题页码）组成。这些标识出现在每 页的右下角。通常每个题目类型都分别作为单独页号组编写，但是如果一个题目所包含内容都很 简单，那么它们会合并到维修实施页号组，即201到299页号组中。若一维修程序并不适合任何一个指定的主题时，则将该维修程序纳入201到299的 页号组。</para>
+      </levelledPara>
+    </description>
+  </content>
+</dmodule>

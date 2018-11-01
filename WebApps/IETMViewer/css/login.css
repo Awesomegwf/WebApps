@@ -1,0 +1,19 @@
+#login {
+	background-image: url(../images/background.jpg)
+}
+
+#login-box {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 20%;
+}
+
+
+
+.ui-btn.ui-btn-f {
+	font-weight: normal;
+	color: #ffffff;
+	background-color: #2082A9;
+	border-color: #2082A9;
+}

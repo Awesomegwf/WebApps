@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dmodule [
+  <!ENTITY ICN-QUY280-A-000000-A-90012-10169-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10169-A-001-01.cgm" NDATA cgm>
+  <!ENTITY ICN-QUY280-A-000000-A-90012-10188-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10188-A-001-01.doc" NDATA DOC>
+  <!ENTITY ICN-QUY280-A-000000-A-90012-10189-A-001-01 SYSTEM "ICN-QUY280-A-000000-A-90012-10189-A-001-01.pdf" NDATA PDF>
+]>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-1/xml_schema_master/faultschema.xsd">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="420" infoCodeVariant="A" itemLocationCode="D" />
+<language languageIsoCode="zh" countryIsoCode="CN" />
+<issueInfo issueNumber="001" inWork="00" />
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2017" month="06" day="22" />
+<dmTitle>
+<techName>吊车 - 样例</techName>
+<infoName>一般故障隔离程序</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01" />
+<responsiblePartnerCompany enterpriseCode="90012">
+<enterpriseName>十二所</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="90012">
+<enterpriseName>十二所</enterpriseName>
+</originator>
+<applic>
+<displayText>
+<simplePara>ALL</simplePara>
+</displayText>
+</applic>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="00" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" />
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified />
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<faultIsolation>
+<faultIsolationProcedure>
+<fault faultCode="F013" />
+<faultDescr>
+<descr> 辅泵低压报警</descr>
+</faultDescr>
+<isolationProcedure>
+<preliminaryRqmts>
+<productionMaintData>
+<thresholdInterval thresholdUnitOfMeasure="th01">2小时</thresholdInterval>
+<zoneRef>
+<name>区域参考B</name>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></refs>
+</zoneRef>
+<accessPointRef>
+<name>口盖名称</name>
+<refs><dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></refs>
+</accessPointRef>
+<workArea>工作区展示</workArea>
+<taskDuration closeupDuration="2" procedureDuration="2" startupDuration="无" unitOfMeasure="h" />
+</productionMaintData>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>必要条件说明</reqCond>
+</reqCondNoRef>
+<reqCondDm>
+<reqCond>必要模块说明</reqCond>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></reqCondDm>
+<reqCondCircuitBreaker>
+<reqCond>必要断路器</reqCond>
+<circuitBreakerDescrGroup>
+<circuitBreakerDescrSubGroup>
+<functionalItemRef functionalItemNumber="功能条目号">
+<name>名称</name>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></refs>
+</functionalItemRef>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerNumber="开关标号">
+<name>名称A</name>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></refs>
+</circuitBreakerRef>
+<name>名称B</name>
+<accessPointRef>
+<name>口盖名称</name><refs><dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></refs></accessPointRef><circuitBreakerLocation>开关位置</circuitBreakerLocation></circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+</circuitBreakerDescrGroup>
+</reqCondCircuitBreaker>
+<reqCondPm>
+<reqCond>必要出版物</reqCond>
+<pmRef>
+<pmRefIdent>
+<pmCode modelIdentCode="QUY" pmIssuer="11111" pmNumber="11111" pmVolume="22" /><issueInfo inWork="11" issueNumber="111" />
+</pmRefIdent>
+<pmRefAddressItems>
+<pmTitle>PM标题</pmTitle>
+<responsiblePartnerCompany>
+<enterpriseName>十二所</enterpriseName>
+</responsiblePartnerCompany>
+<pubMedia pubMediaCode="1" pubMediaType="光盘" />
+</pmRefAddressItems>
+<behavior /></pmRef>
+</reqCondPm>
+<reqCondExternalPub>
+<reqCond>必要条件说明</reqCond>
+<externalPubRef>
+<externalPubRefIdent/>
+</externalPubRef>
+</reqCondExternalPub>
+</reqCondGroup>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr>
+<name> 舰船专用工具套装</name>
+<identNumber>
+<manufacturerCode> 格鲁曼</manufacturerCode>
+<partAndSerialNumber>
+<partNumber> SE-1200</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity> 1套</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>消耗品A</name>
+<shortName>A</shortName>
+<catalogSeqNumberRef catalogSeqNumberValue="A" />
+<natoStockNumber>AA</natoStockNumber>
+<identNumber>
+<manufacturerCode>中石化</manufacturerCode>
+<partAndSerialNumber>
+<partNumber>部件号</partNumber>
+<serialNumber serialNumberForm="single" serialNumberValue="0" />
+</partAndSerialNumber>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></refs>
+</identNumber>
+<supplyRqmtRef supplyRqmtNumber="aa" />
+<reqQuantity>12</reqQuantity>
+<remarks>
+<simplePara>无</simplePara>
+</remarks>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<spareDescrGroup>
+<spareDescr>
+<name>备件00</name>
+<shortName>部件缩写00</shortName>
+<catalogSeqNumberRef catalogSeqNumberValue="a" />
+<natoStockNumber>物料码</natoStockNumber>
+<identNumber>
+<manufacturerCode>十二所</manufacturerCode>
+</identNumber>
+<functionalItemRef functionalItemNumber="A" />
+<reqQuantity>1</reqQuantity>
+<remarks>
+<simplePara>无</simplePara>
+</remarks>
+</spareDescr>
+</spareDescrGroup>
+</reqSpares>
+<reqSafety>
+<safetyRqmts>
+<warning><warningAndCautionPara>注意确认动力系统为慢车状态</warningAndCautionPara>
+</warning>
+<caution>
+<warningAndCautionPara> 注意确认动力系统为慢车状态</warningAndCautionPara>
+</caution>
+</safetyRqmts>
+</reqSafety>
+</preliminaryRqmts>
+<isolationMainProcedure>
+<isolationStep id="s001">
+<title> 仿真占位</title>
+<figure id="F0001">
+<title>Figure Title</title>
+<graphic infoEntityIdent="ICN-QUY280-A-000000-A-90012-10169-A-001-01" />
+</figure>
+<para>office测试：doc</para>
+<multimedia id="M0007">
+	<title>多媒体标题 DOC</title>
+	<multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10188-A-001-01" multimediaType="other"/>
+</multimedia>
+<para>PDF测试：pdf</para>
+<multimedia id="M0008">
+	<title>多媒体标题 PDF</title>
+	<multimediaObject infoEntityIdent="ICN-QUY280-A-000000-A-90012-10189-A-001-01" multimediaType="other"/>
+</multimedia>
+
+<action>然后查看操舵系统仪表板右辅泵压力表，如仿真动画(仿真 1) 所示</action>
+<action> 确认主操作台辅泵低压报警持续灯闪亮</action>
+<isolationStepQuestion> 右辅助泵压力表是否在正常值0.8~1MPa范围内?</isolationStepQuestion>
+<isolationStepAnswer>
+<yesNoAnswer>
+<yesAnswer nextActionRefId="b001" />
+<noAnswer nextActionRefId="b002" />
+</yesNoAnswer>
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="b001">
+<action>报警器故障，误报，请检查报警系统</action>
+</isolationProcedureEnd>
+<isolationStep id="b002">
+<action>检查右辅泵，检查方法为：左右辅泵互换，启动右机组。仿真动画(仿真 1) 所示</action>
+<isolationStepQuestion>右辅助泵压力表是否在0.8~1MPa?</isolationStepQuestion>
+<isolationStepAnswer>
+<yesNoAnswer>
+<yesAnswer nextActionRefId="b003" />
+<noAnswer nextActionRefId="b004" />
+</yesNoAnswer>
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="b004">
+<action>右主泵故障，定位故障部件(仿真 1) ，拆检右主泵 （链接到拆检模块） 检查：缸体和配流盘</action>
+</isolationProcedureEnd>
+<isolationStep id="b003">
+<action>右辅泵机组故障，查左右平衡阀互换，启动右机组.仿真动画(仿真 1) 所示</action>
+<isolationStepQuestion>右辅助泵压力表是否在0.8~1MPa?</isolationStepQuestion>
+<isolationStepAnswer>
+<listOfChoices>
+<choice nextActionRefId="istp-0002">多于1MPa</choice>
+<choice nextActionRefId="istp-0003">介于0.8 MPa 和1 MPa之间</choice>
+<choice nextActionRefId="istp-0004">少于0.8 MPa</choice>
+</listOfChoices>
+</isolationStepAnswer><?Pub Caret -1?>
+</isolationStep>
+<isolationProcedureEnd id="istp-0002">
+<action>给轮胎放气,直到压力小于1MPa</action>
+</isolationProcedureEnd>
+<isolationProcedureEnd id="istp-0003">
+<action>给轮胎安情况充气<dmRef xlink:actuate="onRequest" xlink:href="URN:S1000D:DMC-S1000DBIKE-AAA-DA0-10-20-00AA-215A-A" xlink:show="replace" xlink:type="simple">
+<dmRefIdent>
+<dmCode assyCode="20" disassyCode="00" disassyCodeVariant="AA" infoCode="215" infoCodeVariant="A" itemLocationCode="A" modelIdentCode="S1000DBIKE" subSubSystemCode="0" subSystemCode="1" systemCode="DA0" systemDiffCode="AAA" />
+</dmRefIdent>
+</dmRef>
+</action>
+</isolationProcedureEnd>
+<isolationStep id="istp-0004">
+<action>检查轮胎是否有损坏</action>
+<isolationStepQuestion>轮胎有破损么?</isolationStepQuestion>
+<isolationStepAnswer>
+<yesNoAnswer>
+<yesAnswer nextActionRefId="istp-0005" />
+<noAnswer nextActionRefId="istp-0006" />
+</yesNoAnswer>
+</isolationStepAnswer>
+</isolationStep>
+<isolationProcedureEnd id="istp-0005">
+<action>右平衡阀故障，更换</action>
+</isolationProcedureEnd>
+<isolationProcedureEnd id="istp-0006">
+<action>右辅泵体故障，更换</action>
+</isolationProcedureEnd>
+</isolationMainProcedure>
+<closeRqmts>
+<reqCondGroup>
+<reqCondNoRef>
+<reqCond>必要条件说明</reqCond>
+</reqCondNoRef>
+<reqCondDm>
+<reqCond>必要模块说明</reqCond>
+
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="720" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="00" systemDiffCode="A" />
+</dmRefIdent>
+</dmRef></reqCondDm>
+<reqCondCircuitBreaker>
+<reqCond />
+<circuitBreakerDescrGroup>
+<circuitBreakerDescrSubGroup>
+<circuitBreakerDescr>
+<circuitBreakerRef circuitBreakerNumber="aa" />
+<name>电路开关名称</name>
+<internalRef internalRefId="F0001" internalRefTargetType="figure">内部引用</internalRef>
+<circuitBreakerLocation>开关位置</circuitBreakerLocation>
+</circuitBreakerDescr>
+</circuitBreakerDescrSubGroup>
+</circuitBreakerDescrGroup>
+</reqCondCircuitBreaker>
+<reqCondPm>
+<reqCond>必要出版物说明</reqCond>
+<pmRef>
+<pmRefIdent>
+<pmCode modelIdentCode="QQ" pmIssuer="QQQQQ" pmNumber="QQQQQ" pmVolume="11" /><issueInfo inWork="11" issueNumber="111" />
+</pmRefIdent>
+</pmRef>
+</reqCondPm>
+<reqCondExternalPub>
+<reqCond>必要资料说明</reqCond>
+<externalPubRef>
+<externalPubRefIdent>
+</externalPubRefIdent>
+</externalPubRef>
+</reqCondExternalPub>
+</reqCondGroup>
+</closeRqmts>
+</isolationProcedure>
+</faultIsolationProcedure>
+</faultIsolation>
+</content>
+</dmodule>

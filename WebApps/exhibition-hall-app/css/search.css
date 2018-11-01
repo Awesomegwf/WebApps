@@ -1,0 +1,296 @@
+/* 搜索页面 */
+
+#full-text-search-div {
+    margin-left: 20px;
+    height: 50px;
+    float: left;
+}
+
+#full-text-search-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    color: #B60101;
+    font-weight: bold;
+}
+
+#search-text-input-div {
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    float: left;
+}
+
+#search-text-input{
+    width: 300px;
+}
+
+#search-confirm-div {
+    height: 50px;
+    float: left;
+    margin-left: 10px;
+}
+
+#search-confirm  {
+    margin-top: 7px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#filter-entry {
+    height: 50px;
+}
+
+#filter-entry img {
+    height: 50px;
+}
+
+#style-switch {
+    height: 50px;
+}
+#list-style {
+    height: 50px;
+    cursor: pointer;
+}
+
+
+
+#search  {
+    height: 100%;
+    width: 100%;
+}
+
+#filter-box {
+    background-color: #F0E2D4;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+
+
+
+.rank,.abbr {
+    /*	margin: 0px;
+        padding: 0px;*/
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.birthplace{
+    padding-left: 5px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+.options {
+    border-bottom: 1px inset;
+}
+
+.options p {/*
+	margin: 0px;
+	padding: 0px;*/
+    margin-left: 20px;
+}
+.options b {
+    color: #B60101;
+}
+
+#record-div{
+    display: block;
+    margin: 15px;
+    width: 90%;
+    height: 100%;
+    overflow: scroll;
+}
+
+#record-div imgrecord {
+    height: 250px;
+    cursor: pointer;
+}
+
+/*record*/
+#favorites-record-entry{
+    height: 50px;
+    float: right;
+    margin-right: 150px;
+}
+
+#favorites-record-entry img{
+    height: 50px;
+}
+
+
+/* 档案查看 */
+
+#docBack{
+    float: left;
+    height: 50px;
+    padding-left: 10px;
+}
+
+#doc {
+    height: 100%;
+    width: 100%;
+    background: #D9C3AC;
+}
+
+#record-show {
+    left: 120px;
+    overflow-y: scroll;
+    position: fixed;
+    background: white;
+    right: 20px;
+    top: 50px;
+    bottom: 20px;
+}
+
+#doc-top{
+    position:relative;
+    left:5%;
+    right:5%;
+    top: 5%;
+    width:90%;
+    font-size: 1.5em;
+}
+
+#doc-intro{
+    max-height: 500px;
+    width:65%;
+    position: absolute;
+    text-indent: 2em;
+    overflow: scroll;
+}
+
+#doc-portrait{
+    position: relative;
+    left:70%;
+    width: 30%;
+    text-align: center;
+}
+
+#doc-portrait img{
+    max-width: 100%;
+}
+
+#link-to-board{
+    background-color: white;
+    color: red;
+    padding: 5px;
+    border: 2px solid red;
+}
+
+#doc-images-div{
+    position: absolute;
+    width: 90%;
+    left: 5%;
+    right: 5%;
+    margin-top: 50px;
+}
+
+#doc-images-div table{
+    width: 100%;
+    table-layout: fixed;
+}
+
+#doc-images-div table tr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.doc-table-td-image{
+    width: 65%;
+    border: 1px solid #D9C3AC;
+    text-align: center;
+    position: relative;
+}
+
+.doc-table-td-image img{
+    max-width: 600px;
+    max-height: 500px;
+}
+
+.doc-table-td-desc{
+    width: 35%;
+    padding: 20px;
+    background-color: #E5E3DF;
+    border: 1px solid #D9C3AC;
+    font-size: 1.5em;
+    text-indent:2em;
+}
+.doc-table-td-desc-textIndex{
+    display:inline-block;
+    width:2em;
+    height:1em;
+}
+#birthDiv{
+    width: 87%;
+    position: relative;
+    margin-left: 25px;
+    left: 3em; 
+    top: -2.3em;
+    text-align: left;
+}
+#divBr{
+    margin-top: 15px;
+}
+#birth{
+    height: 75px;
+}
+.imgicon{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    display: none;
+}
+.mulFlag{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 62px;
+    bottom: 261px;
+}
+.mulFlagList{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 354px;
+    bottom: 174px;
+}
+
+.PmulFlag{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 62px;
+    bottom: 260px;
+}
+
+.PmulFlagList{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 64px;
+    bottom: 260px;
+}
+#currenthall{
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    width: 200px;
+    overflow: hidden;
+    background: url("../icons/arrow.png") no-repeat right white;
+    background-size: 40px 40px;
+    height: 38px;
+}
+
+#currenthalldiv{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    float: left;
+    margin-right: 20px;
+}

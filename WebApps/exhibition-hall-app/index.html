@@ -1,0 +1,157 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="fragmentcss/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" type="text/css" href="fragmentcss/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/gallery-list.css">
+	<link rel="stylesheet" type="text/css" href="css/videopopup.css">
+	<link rel="stylesheet" type="text/css" href="css/audiopopup.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mloading.css">
+	<link rel="stylesheet" type="text/css" href="css/mescroll.min.css">
+	<link rel="stylesheet" type="text/css" href="css/search.css">
+	<link rel="stylesheet" type="text/css" id="search-css" href="css/search-tile.css">
+	<link rel="stylesheet" type="text/css" href="css/favorites.css">
+	<link rel="stylesheet" type="text/css" href="css/help.css">
+	<script defer src="fragmentjs/jquery-2.1.0.min.js"></script>
+	<script defer src="fragmentjs/jquery.mobile-1.4.5.min.js"></script>
+	<script defer src="fragmentjs/jquery.fancybox.js"></script>
+	<script defer src="fragmentjs/lunr.js"></script>
+	<script defer src="js/jquery.mloading.js"></script>
+	<script defer src="js/mescroll.min.js"></script>
+	<script defer src="js/utils.js"></script>
+	<!-- <script defer src="js/canvas.js"></script> -->
+	<script defer src="js/gallery.js"></script>
+	<script defer src="js/database.js"></script>
+	<script defer src="js/data.js"></script>
+	<script defer src="js/gallery-list.js"></script>
+	<script defer src="js/search.js"></script>
+	<script defer src="js/favorites.js"></script>
+	<script defer src="js/settings.js"></script>
+	<script defer src="js/music-control.js"></script>
+	<script defer src="js/open.js"></script>
+	<script defer src="js/help.js"></script>
+
+
+
+
+	<title></title>
+</head>
+<body>
+
+        <audio  id="commentary-voice" style="display: none;">
+                <source  src="media/audio/1.mp3"  style="display: none;" />
+        </audio>
+
+        <audio  loop preload="auto" style="display: none;" id="backgroundmusic">
+                <source  id ="bgSrc" style="display: none;" />
+        </audio>
+
+<!-- APP进入动画页面
+	<div data-role="page">
+		<div data-role="header" class="header">档案馆</div>
+		<div data-role="main" >main</div>
+		<div data-role="footer" class="footer">
+			<div>中国人民解放军档案馆</div>
+		</div>
+	</div>
+-->
+<!-- 展厅选择页面 -->
+	<div data-role="page" id="gallery-list">
+	</div>
+
+<!-- 展板展示页面 -->
+	<div data-role="page" id="gallery">
+		<div class="sidebar" >
+			<div class="navbar">
+			<a href="#gallery-list" data-transition="none" class="nav"><img src="icons/nav_01.png"></a>
+			<a href="#gallery" data-transition="none" class="nav current"><img src="icons/nav_02.png"></a>
+			<a href="#search" data-transition="none" class="nav"><img src="icons/nav_03.png"></a>
+			<a href="#favorites" data-transition="none" class="nav"><img src="icons/nav_04.png"></a>
+			<a href="#settings" data-transition="none" class="nav"><img src="icons/nav_05.png"></a>
+			</div>
+		</div>
+		<div class="header">
+		<div style="height: 50px; float: right; margin-right: 120px;">
+			<a href="#display-board-selector" id="display-board-entry"><img src="icons/display-board-entry.png" id="display-board-entry-img"></a>
+			<a href="#add-favorites" id="favorites-entry"><img src="icons/favorites-entry.png" id="favorites-entry-img"></a>
+		</div>
+			<div class="popwindow"><img style="width: 100%; height: 100%;" src="icons/favoritesaved.png"> </div>
+		</div>
+		<!-- 展板展示区域 -->
+		<div class="main" id="main-area">
+			<canvas id="show-area" ></canvas>
+			<canvas id="show-area-alt" ></canvas>
+		</div>
+		<!-- 下拉展板选择菜单 -->
+
+		<div id="pull-down-menu">
+		</div>
+
+
+		<div class="footer" id="playbox">
+		<img src="icons/playbutton.png" id="playbutton">
+        	<p id="current">00:00</p>
+            <p id="duration">00:00</p>
+            <div class="slider">
+            	<div class="buffer"></div>
+            	<div class="processor"></div>
+            	<div class="controller"></div>
+			</div>
+		</div>
+	</div>
+
+<!-- 检索页面 -->
+	<div data-role="page" id="search">
+	</div>
+
+
+<!-- 档案页面 -->
+	<div data-role="page" id="doc" data-transition="none">
+		<div class="sidebar" >
+			<div class="navbar">
+			<a href="#gallery-list" data-transition="none" class="nav"><img src="icons/nav_01.png"></a>
+			<a href="#gallery" data-transition="none" class="nav"><img src="icons/nav_02.png"></a>
+			<a href="#search" data-transition="none" class="nav current"><img src="icons/nav_03.png"></a>
+			<a href="#favorites" data-transition="none" class="nav"><img src="icons/nav_04.png"></a>
+			<a href="#settings" data-transition="none" class="nav"><img src="icons/nav_05.png"></a>
+			</div>
+		</div>
+
+		<div class="header">
+			<a href="#search" data-transition="none"><img src="icons/back.png" id="docBack"></a>
+			<a id="favorites-record-entry"><img src="icons/favorites-entry.png" id="favorites-record-entry-img"/></a>	
+			<div class="popwindow"><img style="width: 100%; height: 100%;" src="icons/favoritesaved.png"> </div>
+		</div>
+
+  		<div id="record-show">
+		</div>
+	</div>
+<!-- 收藏夹页面 -->
+	<div data-role="page" id="favorites">
+
+	</div>
+
+<!-- setting page -->
+	<div data-role="page" id="settings">
+
+	</div>
+<!--帮助-->
+	<div data-role="page" id="help">
+
+	</div>
+
+	<br />
+
+	<div id="audio-box" style="display: none">
+		<div id="audioCont">
+			<audio id="v2" controls>
+				<source src="" type="audio/mp3" id="audiosrc">
+			</audio>
+		</div>
+	</div>
+
+</body>
+</html>

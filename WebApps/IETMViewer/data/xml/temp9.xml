@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dmodule xmlns:dc="http://www.purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.s1000d.org/S1000D_4-0-1/xml_schema_master/schedulschema.xsd">
+<identAndStatusSection>
+<dmAddress>
+<dmIdent>
+<dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="281" infoCodeVariant="A" itemLocationCode="D" />
+<language languageIsoCode="zh" countryIsoCode="CN" />
+<issueInfo issueNumber="001" inWork="00" />
+</dmIdent>
+<dmAddressItems>
+<issueDate year="2017" month="06" day="22" />
+<dmTitle>
+<techName>底座 - 样例</techName>
+<infoName>定期检查</infoName>
+</dmTitle>
+</dmAddressItems>
+</dmAddress>
+<dmStatus issueType="new">
+<security securityClassification="01" />
+<responsiblePartnerCompany enterpriseCode="90012">
+<enterpriseName>十二所</enterpriseName>
+</responsiblePartnerCompany>
+<originator enterpriseCode="90012">
+<enterpriseName>十二所</enterpriseName>
+</originator>
+      <referencedApplicGroup>
+        <applic id="a001">
+          <displayText>
+            <simplePara>002-004</simplePara>
+          </displayText>
+          <evaluate andOr="or">
+            <assert applicPropertyIdent="CEC" applicPropertyType="prodattr" applicPropertyValues="002~004" />
+          </evaluate>
+        </applic>
+      </referencedApplicGroup>
+<brexDmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode modelIdentCode="QUY280" systemDiffCode="A" systemCode="01" subSystemCode="0" subSubSystemCode="0" assyCode="00" disassyCode="00" disassyCodeVariant="A" infoCode="022" infoCodeVariant="A" itemLocationCode="D" />
+</dmRefIdent>
+</dmRef>
+</brexDmRef>
+<qualityAssurance>
+<unverified />
+</qualityAssurance>
+</dmStatus>
+</identAndStatusSection>
+<content>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="941" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="01" systemDiffCode="A" />
+</dmRefIdent>
+<dmRefAddressItems>
+<dmTitle>
+<techName>测试</techName>
+<infoName>任务描述，功能介绍</infoName>
+</dmTitle>
+</dmRefAddressItems>
+</dmRef>
+</refs>
+<maintPlanning>
+<taskDefinition skillType="st01" taskIdent="taskIdent-001">
+<task>
+<taskDescr>这是一个task的测试数据模块</taskDescr>
+</task>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds />
+</reqCondGroup>
+<reqPersons>
+<person man="man-A1">
+<personCategory personCategoryCode="personCategory" />
+<trade>技术人员</trade>
+<estimatedTime unitOfMeasure="h">1</estimatedTime>
+</person>
+<person man="man-A2">
+<personCategory personCategoryCode="personCategory" />
+<trade>技术人员</trade>
+<estimatedTime unitOfMeasure="h">1</estimatedTime>
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="equip-001">
+<name>工具1</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="equip-002">
+<name>工具2</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-002</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>耗材1</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="ea">1</reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>耗材2</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-002</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="ea">2</reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>耗材3</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-003</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="ea">3</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<spareDescrGroup>
+<spareDescr id="spare-001">
+<name>备件1</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">RF</reqQuantity>
+</spareDescr>
+<spareDescr id="spare-002">
+<name>备件6</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-006</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</spareDescr>
+</spareDescrGroup>
+</reqSpares>
+<reqSafety>
+<noSafety />
+</reqSafety>
+</preliminaryRqmts>
+<limit>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th04">
+<thresholdValue>1</thresholdValue>
+</threshold>
+<limitRange>
+<limitRangeFrom>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th03">
+<thresholdValue>3</thresholdValue>
+</threshold>
+</limitRangeFrom>
+<limitRangeTo>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th01">
+<thresholdValue>200</thresholdValue>
+</threshold>
+</limitRangeTo>
+</limitRange>
+</limit>
+<remarks>
+<simplePara>备注：在进行操作过后请注意处理好****问题</simplePara>
+</remarks>
+</taskDefinition>
+<taskDefinition skillType="st01" taskIdent="taskIdent-002">
+<task>
+<taskDescr>这是一个task的测试数据的第二个模块</taskDescr>
+</task>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds />
+</reqCondGroup>
+<reqPersons>
+<person man="man-A">
+<personCategory personCategoryCode="personCategory" />
+<trade>技术人员</trade>
+<estimatedTime unitOfMeasure="h">1</estimatedTime>
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="equip-004">
+<name>工具1</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">5</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="equip-005">
+<name>工具5</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber />
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">RF</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="equip-003">
+<name>工具3</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-003</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">3</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<noSupplies />
+</reqSupplies>
+<reqSpares>
+<spareDescrGroup>
+<spareDescr id="spare-003">
+<name>备件3</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-003</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA" />
+</spareDescr>
+<spareDescr id="spare-004">
+<name>备件4</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-004</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</spareDescr>
+</spareDescrGroup>
+</reqSpares>
+<reqSafety>
+<noSafety />
+</reqSafety>
+</preliminaryRqmts>
+<refs>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="941" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="01" systemDiffCode="A" />
+<issueInfo inWork="00" issueNumber="001" />
+</dmRefIdent>
+</dmRef>
+<dmRef>
+<dmRefIdent>
+<dmCode assyCode="00" disassyCode="01" disassyCodeVariant="A" infoCode="941" infoCodeVariant="A" itemLocationCode="D" modelIdentCode="QUY280" subSubSystemCode="0" subSystemCode="0" systemCode="01" systemDiffCode="A" />
+<issueInfo inWork="00" issueNumber="001" />
+</dmRefIdent>
+</dmRef>
+</refs>
+<limit>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th03">
+<thresholdValue>1</thresholdValue>
+</threshold>
+<limitRange>
+<limitRangeFrom>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th03">
+<thresholdValue>3</thresholdValue>
+</threshold>
+</limitRangeFrom>
+<limitRangeTo>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th01">
+<thresholdValue>200</thresholdValue>
+</threshold>
+</limitRangeTo>
+</limitRange>
+</limit>
+<remarks>
+<simplePara>备注：在进行操作过后请注意处理好****问题</simplePara>
+</remarks>
+</taskDefinition>
+<taskDefinition skillType="st01" taskIdent="taskIdent-003">
+<task>
+<taskDescr>这是一个task的测试数据的第三个模块</taskDescr>
+</task>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds />
+</reqCondGroup>
+<reqPersons>
+<person man="man-A">
+<personCategory personCategoryCode="personCategory" />
+<trade>技术人员</trade>
+<estimatedTime unitOfMeasure="h" />
+</person>
+</reqPersons>
+<reqSupportEquips>
+<noSupportEquips />
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>耗材1</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="ea">7</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<noSpares />
+</reqSpares>
+<reqSafety>
+<noSafety />
+</reqSafety>
+</preliminaryRqmts>
+<limit>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th03">
+<thresholdValue>1</thresholdValue>
+</threshold>
+<limitRange>
+<limitRangeFrom>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th03">
+<thresholdValue>3</thresholdValue>
+</threshold>
+</limitRangeFrom>
+<limitRangeTo>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th01">
+<thresholdValue>200</thresholdValue>
+</threshold>
+</limitRangeTo>
+</limitRange>
+</limit>
+<remarks>
+<simplePara>备注：在进行操作过后请注意处理好****问题</simplePara>
+</remarks>
+</taskDefinition>
+<taskDefinition skillType="st01" taskIdent="taskIdent-004">
+<task>
+<taskDescr>这是一个task的测试数据的第四个模块</taskDescr>
+</task>
+<preliminaryRqmts>
+<reqCondGroup>
+<noConds />
+</reqCondGroup>
+<reqPersons>
+<person man="man-A">
+<personCategory personCategoryCode="personCategory" />
+<trade>技术人员</trade>
+<estimatedTime unitOfMeasure="h">1</estimatedTime>
+</person>
+</reqPersons>
+<reqSupportEquips>
+<supportEquipDescrGroup>
+<supportEquipDescr id="equip-006">
+<name>工具6</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-006</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">1</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="equip-007">
+<name>工具7</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-007</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</supportEquipDescr>
+<supportEquipDescr id="equip-008">
+<name>工具8</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-008</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">3</reqQuantity>
+</supportEquipDescr>
+</supportEquipDescrGroup>
+</reqSupportEquips>
+<reqSupplies>
+<supplyDescrGroup>
+<supplyDescr>
+<name>耗材8</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-008</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="ea">2</reqQuantity>
+</supplyDescr>
+<supplyDescr>
+<name>耗材9</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-009</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="ea">3</reqQuantity>
+</supplyDescr>
+</supplyDescrGroup>
+</reqSupplies>
+<reqSpares>
+<spareDescrGroup>
+<spareDescr id="spare-007">
+<name>备件1</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-001</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">2</reqQuantity>
+</spareDescr>
+<spareDescr id="spare-008">
+<name>备件8</name>
+<identNumber>
+<manufacturerCode />
+<partAndSerialNumber>
+<partNumber>partNumber-002</partNumber>
+</partAndSerialNumber>
+</identNumber>
+<reqQuantity unitOfMeasure="EA">RF</reqQuantity>
+</spareDescr>
+</spareDescrGroup>
+</reqSpares>
+<reqSafety>
+<noSafety />
+</reqSafety>
+</preliminaryRqmts>
+<limit>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th30">
+<thresholdValue />
+</threshold>
+<limitRange>
+<limitRangeFrom>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th03">
+<thresholdValue>3</thresholdValue>
+</threshold>
+</limitRangeFrom>
+<limitRangeTo>
+<threshold thresholdType="interval" thresholdUnitOfMeasure="th01">
+<thresholdValue>200</thresholdValue>
+</threshold>
+</limitRangeTo>
+</limitRange>
+</limit>
+<remarks>
+<simplePara>备注：在进行操作过后请注意处理好****问题</simplePara>
+</remarks>
+</taskDefinition>
+</maintPlanning>
+</content>
+</dmodule>

@@ -1,0 +1,149 @@
+
+#favorites {
+	height: 100%;
+	width: 100%;
+}
+
+#favorites-select-text-div {
+	margin-left: 20px;
+	height: 50px;
+	float: left;
+}
+
+#favorites-select-text {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+	color: #B60101;
+	font-weight: bold;
+}
+
+#favorites-select-dropdown {
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	float: left;
+}
+
+#favorites-select-dropdown-selector {
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	width: auto;
+	overflow: hidden;
+	background: url("../icons/arrow.png") no-repeat right white;
+	background-size: 40px 40px;
+	height: 38px;
+}
+
+
+#favorites-edit {
+	height: 50px;
+	margin-right: 110px;
+	float: right;
+}
+
+#favorites-edit-img {
+	height: 50px;
+}
+
+#favorites-delete{
+	height: 50px;
+	margin-right: 10px;
+	float: right;
+	display: none;
+}
+
+#favorites-chooseAll{
+	height: 50px;
+	margin-right: 10px;
+	float: right;
+	display: none;
+}
+
+.favorites-board{
+	float: left;
+	margin-left: 14px;
+	margin-right: 14px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.favorites-board img{
+	max-width:350px;
+	max-height:200px;
+}
+
+.favorites-record{
+	float:left;
+	margin-right:15px;
+	margin-bottom:22px;
+	margin-top:8px;
+	margin-left:15px;
+}
+
+#firstline{
+	position: relative;
+	top: 20px;
+}
+#firstline img{
+	width:93%;
+	margin-right:100px;
+}
+#firstline p{
+	margin:0 auto;
+	font-size:1.5em;
+	color:#A40000;
+	margin-right:100px;
+	position:relative;
+	top:-20px;
+	right:0px;
+}
+#favorites-display-board-text{
+	text-align: center;
+	width:93%;
+	height:319px;
+	overflow:scroll;
+	position:relative;
+	top:0px;
+}
+#secondline{
+	position:relative;
+	bottom:20px;
+	top:-10px;
+}
+#secondline img{
+	width:93%;
+	margin-right:100px;
+}
+#secondline p{
+	margin:0 auto;
+	font-size:1.5em;
+	color:#A40000;
+	margin-right:100px;
+	position:relative;
+	top:-20px;
+}
+#favorites-display-board-div{
+	text-align: center;
+	width:93%;
+	height:319px;
+	overflow:scroll;
+	position:relative;
+	top:0px;
+}
+
+/*.record{
+	float:left;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 22px;
+	margin-top: 8px;
+}
+.board{
+	float: left;
+	margin-top: 60px;
+	margin-right:14px;
+	margin-left:14px;  
+}
+*/

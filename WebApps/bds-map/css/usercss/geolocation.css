@@ -1,0 +1,154 @@
+#geolocation {
+	width: 100%;
+	height: 100%;
+}
+
+#locnav{
+	width: 100%;
+	height: 100%;
+}
+
+#passivepage {
+	width: 93.5%;
+	height: 100%;
+}
+
+#activepage {
+	width: 93.5%;
+	height: 100%;
+	display: none;
+}
+
+.plist {
+	width: 100%;
+	height: 65px;
+	background-color: #ffffff;
+	border: solid #d2d2d2 1px;
+	margin-bottom: 7px; 
+	border-radius: 5px;
+}
+.pleft {
+	position: relative;
+	width: 25%;
+	height: 59px;
+	border-right: solid #d2d2d2 1px;
+	float: left;
+	line-height: 61px;
+	overflow:hidden;
+	text-align: center;
+	font-size: 1.5em;
+	color: #484949;
+	top: 4%;
+}
+
+.pright {
+	width: 25%;
+	height: 65px;
+	line-height: 65px;
+	overflow: hidden;
+	float: left;
+	padding-left: 44px;
+	font-size: 1.5em;
+	color: #797979;
+}
+
+.plast {
+	position: relative;
+	height: 59px;
+	line-height: 59px;
+	overflow: hidden;
+	float: left;
+	border-left: solid #d2d2d2 1px;
+	padding-left: 44px;
+	font-size: 1.5em;
+	color: #797979;
+	top: 4%;
+}
+
+.alist {
+	width: 100%;
+	height: 50px;
+	background-color: #ffffff;
+	border: solid #d2d2d2 1px;
+	margin-bottom: 7px; 
+	border-radius: 5px;
+}
+.aleft {
+	position: relative;
+	width: 25%;
+	height: 44px;
+	border-right: solid #d2d2d2 1px;
+	float: left;
+	line-height: 46px;
+	overflow:hidden;
+	text-align: center;
+	font-size: 1.5em;
+	color: #484949;
+	top: 4%;
+}
+
+.aright {
+	width: 25%;
+	height: 50px;
+	line-height: 50px;
+	overflow: hidden;
+	float: left;
+	padding-left: 44px;
+	font-size: 1.5em;
+	color: #797979;
+}
+
+.alast {
+	position: relative;
+	height: 44px;
+	line-height: 46px;
+	overflow: hidden;
+	float: left;
+	border-left: solid #d2d2d2 1px;
+	padding-left: 44px;
+	font-size: 1.5em;
+	color: #797979;
+	top: 4%;
+}
+
+#abtsin {
+	width: 25%;
+	margin-left: 10%;
+	font-size: 1.5em;
+	border-radius:3px ;
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	position: relative;
+	background-color: #89cc42;
+	float: left;
+	color: white;
+}
+
+#abtmul {
+	width: 25%;
+	margin-left: 25%;
+	font-size: 1.5em;
+	border-radius:3px ;
+	text-align: center;
+	line-height: 50px;
+	height: 50px;
+	position: relative;
+	background-color: #89cc42;
+	float: left;
+	color: white;
+}
+.locheader {
+	position: relative;
+	font-size: 1.5em;
+	color: gray;
+	position: relative;
+	width: 50%;
+	left: 25%;
+	padding-bottom: 5%;
+}
+#btnvector {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 3%;
+}
